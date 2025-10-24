@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" role="img" aria-label="Campus life collage">
+  <rect width="100%" height="100%" fill="#f8f9fa"/>
+  <rect x="40" y="40" width="200" height="140" fill="#0d6efd" rx="12"/>
+  <rect x="280" y="40" width="200" height="140" fill="#6c757d" rx="12"/>
+  <rect x="520" y="40" width="240" height="140" fill="#198754" rx="12"/>
+  <rect x="40" y="220" width="240" height="140" fill="#ffc107" rx="12"/>
+  <rect x="320" y="220" width="200" height="140" fill="#dc3545" rx="12"/>
+  <rect x="560" y="220" width="200" height="140" fill="#0dcaf0" rx="12"/>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-label="Electrical Engineering">
+  <rect width="120" height="120" rx="16" fill="#fff7ed"/>
+  <g transform="translate(20,20)" fill="#f59e0b">
+    <polygon points="40,4 24,44 48,44 28,80 76,28 58,28 78,4"/>
+  </g>
+</svg>

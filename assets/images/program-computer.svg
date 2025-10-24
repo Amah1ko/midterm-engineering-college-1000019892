@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-label="Computer Engineering">
+  <rect width="120" height="120" rx="16" fill="#eef2ff"/>
+  <g transform="translate(20,22)" fill="#2563eb">
+    <rect x="6" y="6" width="68" height="40" rx="6"/>
+    <rect x="18" y="54" width="44" height="6" rx="3"/>
+    <rect x="26" y="66" width="28" height="6" rx="3"/>
+  </g>
+</svg>

@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="light dark">
+  <title>Engineering College</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7OMl5F0e1U9vYjE6uH8g7SkG7tNT5dlt0J9" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+        <img src="assets/images/logo.svg" alt="Engineering College logo" height="28">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="nav">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0" id="mainNav">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="programs.html">Programs</a></li>
+          <li class="nav-item"><a class="nav-link" href="admissions.html">Admissions</a></li>
+          <li class="nav-item"><a class="nav-link" href="student-life.html">Student Life</a></li>
+          <li class="nav-item"><a class="nav-link" href="registration.html">Registration</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<main class="pt-5 container">
+  <div class="py-5">
+    <h1 class="h2 mb-3">Student Life</h1>
+    <p class="text-secondary">Clubs, events, and announcements that make campus vibrant.</p>
+
+    <ul class="nav nav-tabs" id="lifeTabs" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="clubs-tab" data-bs-toggle="tab" data-bs-target="#clubs" type="button" role="tab" aria-controls="clubs" aria-selected="true">Clubs</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="events-tab" data-bs-toggle="tab" data-bs-target="#events" type="button" role="tab" aria-controls="events" aria-selected="false">Events</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="news-tab" data-bs-toggle="tab" data-bs-target="#news" type="button" role="tab" aria-controls="news" aria-selected="false">News</button>
+      </li>
+    </ul>
+    <div class="tab-content border-start border-end border-bottom p-3 rounded-bottom" id="lifeTabsContent">
+      <div class="tab-pane fade show active" id="clubs" role="tabpanel" aria-labelledby="clubs-tab">
+        <div class="row g-3">
+          <div class="col-md-6">
+            <div class="p-3 bg-light rounded-3">
+              <strong>Robotics Club</strong><br>Weekly builds and competitions. <span tabindex="0" data-bs-toggle="tooltip" title="Open to all levels">?</span>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="p-3 bg-light rounded-3">
+              <strong>Developers Guild</strong><br>Hack nights and open source projects.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="events" role="tabpanel" aria-labelledby="events-tab">
+        <ul class="list-group">
+          <li class="list-group-item">Career Fair — Nov 20</li>
+          <li class="list-group-item">Engineering Expo — Dec 2</li>
+        </ul>
+      </div>
+      <div class="tab-pane fade" id="news" role="tabpanel" aria-labelledby="news-tab">
+        <div class="accordion" id="newsAcc">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="h1">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#c1" aria-expanded="true" aria-controls="c1">
+                New Maker Lab Opens
+              </button>
+            </h2>
+            <div id="c1" class="accordion-collapse collapse show" aria-labelledby="h1" data-bs-parent="#newsAcc">
+              <div class="accordion-body">Our new lab includes 3D printers, CNC, and electronics benches.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="h2">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c2" aria-expanded="false" aria-controls="c2">
+                Scholarship Results
+              </button>
+            </h2>
+            <div id="c2" class="accordion-collapse collapse" aria-labelledby="h2" data-bs-parent="#newsAcc">
+              <div class="accordion-body">Merit‑based awards announced in student portal.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+  <footer class="py-5 mt-5 border-top">
+    <div class="container small text-muted">
+      <div class="row g-4">
+        <div class="col-md">
+          <strong>Engineering College</strong><br>
+          123 Innovation Ave, Technopolis<br>
+          +1 (555) 010-2025 · info@engcollege.edu
+        </div>
+        <div class="col-md">
+          <div class="d-flex gap-3">
+            <a href="about.html" class="link-secondary">About</a>
+            <a href="admissions.html" class="link-secondary">Admissions</a>
+            <a href="student-life.html" class="link-secondary">Student Life</a>
+            <a href="contact.html" class="link-secondary">Contact</a>
+          </div>
+          <div class="mt-2">© <span id="year"></span> Engineering College</div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>
