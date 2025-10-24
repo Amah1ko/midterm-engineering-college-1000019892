@@ -1,390 +1,216 @@
-# Engineering College - Static Multi-Page Website
+# Engineering College Website
 
-## 📋 Project Overview
+A modern, responsive, and accessible multi-page website for Engineering College, showcasing academic programs, campus life, and providing online application capabilities.
 
-A comprehensive, responsive, and accessible static website for "Engineering College" - an educational institution offering various engineering programs. The website provides prospective students with information about programs, admissions, campus life, and includes functional registration and contact forms.
+## 🎓 Project Overview
 
-**Live URL:** `[Your GitHub Pages URL will go here]`
+This is a static brochure-style website built for an educational institution offering five engineering programs. The site features a fixed navigation bar, responsive design, interactive elements, and comprehensive forms with client-side validation.
 
-**Repository:** `[Your GitHub Repository URL will go here]`
+**Live URL:** [Add your GitHub Pages URL here]
 
----
+**Repository:** [Add your GitHub repository URL here]
 
-## 🗺️ Page Map
+## 📄 Page Map
 
-### Main Pages (6 HTML Pages)
+The website consists of 6 main pages:
 
-1. **Home (index.html)**
-   - Hero section with call-to-action
-   - Quick statistics
-   - Featured programs preview
-   - Why choose us section
-   - Call-to-action section
-
-2. **About & Programs (about.html)**
-   - College mission and history
-   - Core values
-   - Comprehensive program listings (9 programs)
-   - Interactive program filter (Bachelor's/Master's)
-   - Accreditation information
-
-3. **Admissions (admissions.html)**
-   - Admissions overview
-   - Step-by-step application process (accordion)
-   - Detailed tuition and fees table
-   - Admission requirements
-   - Interactive FAQ section
-
-4. **Student Life (student-life.html)**
-   - Campus life overview
-   - Student organizations and clubs (6 featured)
-   - Campus news and events with category filter
-   - Campus facilities showcase
-   - Student testimonials
-
-5. **Contact (contact.html)**
-   - Contact information cards
-   - Fully functional contact form with validation
-   - Anti-spam verification
-   - Campus map placeholder
-   - Quick answers section
-
-6. **Registration (registration.html)**
-   - Advanced multi-section registration form
-   - Real-time progress indicator
-   - Comprehensive field validation
-   - Password strength requirements
-   - Success confirmation display
-
----
+1. **Home (index.html)** - Hero section with college tagline, quick stats, featured programs, and call-to-action
+2. **About & Programs (about.html)** - College mission, values, and detailed information about all 5 engineering programs
+3. **Admissions (admissions.html)** - Application process, timeline, requirements, tuition fees, and FAQ
+4. **Student Life (student-life.html)** - Campus organizations, events, facilities, and student testimonials
+5. **Contact (contact.html)** - Contact information, office hours, department contacts, and contact form
+6. **Registration (registration.html)** - Comprehensive student application form with validation
 
 ## ✨ Features Implemented
 
 ### Core Requirements
 
-#### ✅ Multi-Page Structure
-- 6 distinct HTML pages with consistent navigation
-- Fixed top navigation bar on all pages
-- Logical information architecture
+- **Responsive Design:** Mobile-first approach with Bootstrap 5, works seamlessly on phones, tablets, and desktops
+- **Fixed Navigation:** Persistent top navigation bar with active page states and mobile-friendly collapse menu
+- **Semantic HTML5:** Proper use of semantic elements (nav, section, article, footer, etc.)
+- **Accessibility:** WCAG-compliant with proper heading hierarchy, ARIA labels, focus states, and keyboard navigation
+- **Consistent Branding:** CSS variables for colors, typography scale, and spacing system throughout
 
-#### ✅ Responsive Design
-- Mobile-first approach
-- Fully responsive layouts (320px - 1920px+)
-- Collapsible navigation for mobile devices
-- Optimized content display across all breakpoints
+### Forms
 
-#### ✅ Forms with Advanced Validation
+#### Registration Form (Advanced)
+- Full Name, Email, Phone Number
+- Program Selection (dropdown)
+- Study Mode (radio buttons: Full-Time, Part-Time, Accelerated)
+- Intended Intake Date
+- Password & Confirm Password with matching validation
+- Scholarship Interest (optional field)
+- Terms & Conditions agreement checkbox
+- Real-time client-side validation with inline error/success messages
+- Prevents submission until all required fields are valid
+- Visual confirmation state after successful submission
+- Fully keyboard accessible
 
-**Registration Form (Advanced):**
-- Full name, email, phone validation
-- Date of birth with age verification (minimum 15 years)
-- Program selection dropdown
-- Study mode radio buttons (Full-Time/Part-Time/Online)
-- Intended intake date picker
-- Password with strength requirements (8+ chars, uppercase, lowercase, number)
-- Confirm password with match validation
-- Terms & conditions checkbox (required)
-- Scholarship interest (optional)
-- Referral source (optional)
-- Real-time inline validation
-- Progress bar tracking completion
-- Success confirmation with user details
-
-**Contact Form (Basic):**
-- Name, email, subject, message (all required)
-- Anti-spam math challenge
-- Real-time validation
-- Success/error feedback messages
-- Form reset with confirmation
-
-#### ✅ Accessibility Features
-- Semantic HTML5 elements
-- Proper heading hierarchy (h1-h6)
-- ARIA labels and roles
-- Alt text for decorative elements
-- Keyboard navigation support
-- Focus visible states
-- Color contrast compliance
-- Skip to main content link
-- Form labels properly associated
-
-#### ✅ UI/UX Quality
-- Consistent color system and spacing scale
-- Professional typography scale
-- Smooth transitions and animations
-- Hover/focus/active states
-- Loading spinners for form submissions
-- Clear visual hierarchy
-- Realistic, professional copy
-- Intuitive navigation
+#### Contact Form (Basic)
+- Name, Email, Subject, Message
+- Anti-spam measure (simple math question)
+- Consent checkbox
+- Success/failure feedback messages
+- Client-side validation
 
 ### Interactive JavaScript Features
 
-#### 🎯 Feature #1: Program Filter System
-**Location:** About & Programs page
-**Description:** Dynamic filtering of engineering programs by degree level
-- Filter buttons: All Programs, Bachelor's, Master's
-- Smooth fade and slide animations
-- Maintains active button state
-- 9 total programs dynamically filtered
+#### Feature #1: Program Filter
+- **Location:** About & Programs page
+- **Description:** Filter engineering programs by study mode (All, 4-Year, Accelerated)
+- **Enhancement:** Improves content discoverability and user experience
 
-#### 🎯 Feature #2: Event Category Filter
-**Location:** Student Life page  
-**Description:** Filter campus events by category
-- Filter options: All Events, Academic, Social, Sports
-- Smooth scale animations on filter
-- Visual feedback with active states
-- 6 events showcased with filtering
+#### Feature #2: Program Details Toggle
+- **Location:** About & Programs page
+- **Description:** Expandable/collapsible program details with smooth animations
+- **Enhancement:** Reduces visual clutter and allows users to explore content at their own pace
 
-#### 🎯 Bonus Feature #3: FAQ Accordion
-**Location:** Admissions page
-**Description:** Collapsible FAQ section
-- Click to expand/collapse answers
-- Auto-close other answers when opening new one
-- Smooth transitions
-- Toggle indicator (+ / −)
+### Additional Interactive Elements
 
-### Additional Interactive Enhancements
-- Form validation with real-time feedback
-- Progress bar for registration form
-- Smooth scroll for anchor links
+- Smooth scrolling for anchor links
+- Form input validation with visual feedback
+- Hover effects on cards and buttons
+- Responsive FAQ accordion
+- Phone number auto-formatting
+- Email validation enhancement
+- Fade-in animations on scroll
 - Navbar shadow on scroll
-- Card hover effects
-- Toast notifications system
-- Form reset confirmation dialogs
-- Accordion for application steps
-
----
 
 ## 🛠️ Technologies Used
 
-- **HTML5:** Semantic markup, forms, accessibility features
-- **CSS3:** Custom properties, flexbox, grid, animations, transitions
-- **Bootstrap 5.3.2:** Grid system, components, utilities
-- **JavaScript (ES6+):** Form validation, filters, DOM manipulation, event handling
-- **CDN Resources:** Bootstrap, no external dependencies
+- **HTML5** - Semantic markup
+- **CSS3** - Custom styling with CSS variables, Flexbox, Grid
+- **Bootstrap 5.3.2** - Responsive framework and components
+- **Vanilla JavaScript (ES6+)** - Form validation and interactivity
+- **SVG** - Scalable vector graphics for logos and icons
 
----
-
-## 📁 File Structure
+## 📁 Project Structure
 
 ```
 engineering-college/
-│
-├── index.html              # Home page
-├── about.html              # About & Programs page
-├── admissions.html         # Admissions information
-├── student-life.html       # Student life & events
-├── contact.html            # Contact form & info
-├── registration.html       # Advanced registration form
-│
-├── css/
-│   └── styles.css          # Main stylesheet
-│
-├── js/
-│   └── main.js             # All JavaScript functionality
-│
-└── README.md               # This file
+├── index.html
+├── about.html
+├── admissions.html
+├── student-life.html
+├── contact.html
+├── registration.html
+├── README.md
+├── assets/
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   └── main.js
+│   └── images/
+│       ├── logo.svg
+│       ├── hero.svg
+│       ├── campus.svg
+│       ├── program-computer.svg
+│       ├── program-electrical.svg
+│       └── program-civil.svg
 ```
-
----
 
 ## 🎨 Design System
 
 ### Color Palette
-- **Primary:** #2563eb (Blue)
-- **Primary Dark:** #1e40af
-- **Secondary:** #0ea5e9 (Sky Blue)
-- **Accent:** #f59e0b (Amber)
-- **Success:** #10b981 (Green)
-- **Danger:** #ef4444 (Red)
-- **Dark:** #1e293b
-- **Light Background:** #f8fafc
+- **Primary:** #0d6efd (Bootstrap Blue)
+- **Secondary:** #6c757d (Gray)
+- **Success:** #198754 (Green)
+- **Danger:** #dc3545 (Red)
+- **Light Background:** #f8f9fa
+- **Dark Background:** #212529
 
 ### Typography
-- **Font Family:** 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-- **Base Size:** 16px
-- **Line Height:** 1.6
-- **Heading Weight:** 700 (Bold)
+- **Font Family:** System font stack (-apple-system, BlinkMacSystemFont, Segoe UI, Roboto)
+- **Line Height:** 1.6 for body text, 1.2 for headings
+- **Scale:** Consistent heading hierarchy from h1 to h6
 
-### Spacing Scale
-- XS: 0.5rem (8px)
-- SM: 1rem (16px)
-- MD: 1.5rem (24px)
-- LG: 2rem (32px)
-- XL: 3rem (48px)
-- 2XL: 4rem (64px)
+### Spacing
+- Base spacing unit: 1rem (16px)
+- Consistent padding and margins using multiples of the base unit
 
----
+## ♿ Accessibility Features
 
-## 🚀 Deployment Instructions
+- Semantic HTML5 structure
+- ARIA labels and roles where appropriate
+- Proper heading hierarchy
+- Sufficient color contrast ratios (WCAG AA compliant)
+- Visible focus indicators on all interactive elements
+- Keyboard navigation support
+- Form labels properly associated with inputs
+- Alt text for all non-decorative images
+- Responsive text sizing
 
-### GitHub Pages Deployment
+## 📱 Responsive Breakpoints
 
-1. **Create Repository:**
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit: Engineering College website"
-   ```
+- **Mobile:** < 576px
+- **Tablet:** 576px - 991px
+- **Desktop:** ≥ 992px
 
-2. **Push to GitHub:**
-   ```bash
-   git remote add origin https://github.com/YOUR-USERNAME/engineering-college.git
-   git branch -M main
-   git push -u origin main
-   ```
+The site uses Bootstrap's responsive grid system and custom media queries for optimal display across all devices.
 
-3. **Enable GitHub Pages:**
-   - Go to repository Settings
-   - Navigate to Pages section
-   - Select source: main branch
-   - Save and wait for deployment
-   - Your site will be live at: `https://YOUR-USERNAME.github.io/engineering-college/`
+## 🚀 Deployment
+
+### GitHub Pages Setup
+
+1. Push code to GitHub repository
+2. Go to repository Settings
+3. Navigate to Pages section
+4. Select branch (main/master) and root folder
+5. Save and wait for deployment
+6. Access site at: `https://[username].github.io/[repository-name]`
 
 ### Local Development
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/YOUR-USERNAME/engineering-college.git
-   cd engineering-college
-   ```
+1. Clone the repository
+2. Open `index.html` in a web browser
+3. No build process required - pure static site
 
-2. **Open in browser:**
-   - Simply open `index.html` in your web browser
-   - Or use a local server (recommended):
-   ```bash
-   # Using Python
-   python -m http.server 8000
-   
-   # Using Node.js
-   npx serve
-   ```
+## 🎯 Known Limitations
 
-3. **Access:**
-   - Navigate to `http://localhost:8000`
+- Forms are client-side only (no backend submission)
+- No actual user authentication system
+- SVG images are placeholder paths (need to be created/replaced)
+- No CMS integration for content management
+- Limited browser support for older versions (targets modern browsers)
 
----
+## 📸 Screenshots Guide
 
-## 🧪 Testing Checklist
+For the Quality Evidence PDF, capture these views:
 
-### Responsiveness
-- ✅ Mobile (320px - 480px)
-- ✅ Tablet (481px - 768px)
-- ✅ Desktop (769px - 1920px+)
-- ✅ No horizontal scrolling
-- ✅ Readable text at all sizes
+1. **Home Page:** Desktop and mobile views showing hero section and navigation
+2. **Navigation:** Mobile menu expanded state
+3. **Registration Form:** 
+   - Invalid state with error messages
+   - Valid state with success indicators
+   - Confirmation message after submission
+4. **Contact Form:** Submission feedback (success message)
+5. **Interactive Feature:** Program filter or details toggle in action
 
-### Forms
-- ✅ All required fields validated
-- ✅ Email format validation
-- ✅ Phone number format validation
-- ✅ Password strength requirements
-- ✅ Password match validation
-- ✅ Date of birth age check
-- ✅ Anti-spam challenge works
-- ✅ Success/error messages display
-- ✅ Form reset confirmation
+## 🙏 Credits
 
-### Navigation
-- ✅ All internal links work
-- ✅ Active page highlighted
-- ✅ Mobile menu collapses properly
-- ✅ Smooth scrolling for anchors
-- ✅ Skip to main content link
+### Assets
+- Bootstrap 5.3.2 - MIT License
+- Icons: Unicode emoji characters (no attribution required)
+- SVG Graphics: Placeholder paths (to be replaced with actual images)
 
-### Accessibility
-- ✅ Keyboard navigation works
-- ✅ Focus states visible
-- ✅ Screen reader friendly
-- ✅ Proper heading hierarchy
-- ✅ Alt text present
-- ✅ ARIA labels implemented
-- ✅ Color contrast sufficient
+### Fonts
+- System font stack (no external fonts required)
 
-### Interactive Features
-- ✅ Program filter works smoothly
-- ✅ Event filter functions properly
-- ✅ FAQ accordion expands/collapses
-- ✅ Forms validate in real-time
-- ✅ Progress bar updates correctly
-- ✅ Animations perform smoothly
+### Inspiration
+- Modern university websites
+- Bootstrap documentation and examples
+
+## 📝 License
+
+This project is created for educational purposes as part of a midterm examination.
+
+## 👤 Author
+
+**[Your Name]**  
+**Student ID:** [Your ID]  
+**Course:** Web Development  
+**Date:** October 2025
 
 ---
 
-## ⚠️ Known Limitations
-
-1. **No Backend:** Forms simulate submission (no actual data storage)
-2. **Static Content:** All content is hardcoded (no CMS)
-3. **Image Placeholders:** Using emoji/gradient placeholders instead of actual images
-4. **No Authentication:** Login/signup links are placeholders
-5. **Limited Browser Support:** Optimized for modern browsers (Chrome, Firefox, Safari, Edge)
-6. **No Search Functionality:** Site-wide search not implemented
-
----
-
-## 📸 Screenshots
-
-*Screenshots should be included in your PDF submission showing:*
-1. Home page - Desktop and mobile views
-2. Navigation - Mobile collapsed state
-3. Registration form - Invalid state
-4. Registration form - Valid state with success message
-5. Contact form - Submission feedback
-6. Program filter - In action
-7. Event filter - Category selection
-
----
-
-## 🎓 Credits & Attributions
-
-### Resources Used
-- **Bootstrap 5.3.2:** Framework (MIT License)
-- **Icons:** Emoji characters (Unicode standard)
-- **Fonts:** System fonts (no external fonts)
-- **Images:** Gradient placeholders (original design)
-
-### Development
-- **Developer:** Amal Kurbanov
-- **Project:** Midterm Project - Engineering College Website
-- **Course:** Web Development
-- **Date:** October 2025
-
----
-
-## 📝 Future Enhancements
-
-Potential improvements for future versions:
-- Real backend integration with database
-- User authentication system
-- Content management system (CMS)
-- Blog/news section with pagination
-- Faculty directory with profiles
-- Student portal dashboard
-- Online payment integration
-- Live chat support
-- Multi-language support
-- Advanced search functionality
-- Email notification system
-- Social media integration
-- Analytics dashboard
-
----
-
-## 📞 Support & Contact
-
-For questions or issues:
-- **Email:** info@engineeringcollege.edu
-- **Phone:** +1 (555) 123-4567
-- **GitHub Issues:** (https://github.com/YOUR-USERNAME/engineering-college/issues)
-
----
-
-## 📄 License
-
-This project is created for educational purposes as part of a web development course.
-
----
-
-**Built with ❤️ by Amal Kurbanov**  
-*Engineering College - Shaping Tomorrow's Innovators*
+**Note:** Replace placeholder SVG paths with actual images before final submission. Ensure all links are tested and the site is fully functional on GitHub Pages.

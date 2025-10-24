@@ -3,20 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Learn about Engineering College and explore our comprehensive programs">
     <title>About & Programs - Engineering College</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <!-- Fixed Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <!-- Fixed Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
         <div class="container">
-            <a class="navbar-brand fw-bold" href="index.html">
-                <span class="brand-icon">⚙️</span> Engineering College
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="assets/images/logo.svg" alt="Engineering College Logo" height="40" class="me-2">
+                <span class="fw-bold">Engineering College</span>
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -37,7 +36,7 @@
                         <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn-register" href="registration.html">Register Now</a>
+                        <a class="nav-link btn btn-light text-primary ms-lg-2" href="registration.html">Apply Now</a>
                     </li>
                 </ul>
             </div>
@@ -45,300 +44,260 @@
     </nav>
 
     <!-- Page Header -->
-    <section class="page-header bg-gradient text-white text-center py-5">
-        <div class="container" style="margin-top: 80px;">
-            <h1 class="display-4 fw-bold mb-3">About Engineering College</h1>
-            <p class="lead">Excellence in Engineering Education Since 1985</p>
+    <section class="page-header bg-light">
+        <div class="container">
+            <h1 class="display-4 fw-bold">About Engineering College</h1>
+            <p class="lead">Excellence in engineering education since 1985</p>
         </div>
     </section>
 
     <!-- About Section -->
     <section class="py-5">
         <div class="container">
-            <div class="row g-5 align-items-center">
-                <div class="col-lg-6">
-                    <div class="image-placeholder bg-gradient p-5 rounded-3 text-center text-white">
-                        <div class="py-5">
-                            <p class="display-1 mb-3">🏛️</p>
-                            <h4>40 Years of Excellence</h4>
-                            <p class="mb-0">Building futures since 1985</p>
-                        </div>
-                    </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <img src="assets/images/campus.svg" alt="Engineering College campus view" class="img-fluid rounded shadow">
                 </div>
                 <div class="col-lg-6">
-                    <h2 class="display-5 fw-bold mb-4">Our Mission</h2>
-                    <p class="lead text-muted mb-4">Engineering College is dedicated to providing world-class engineering education that prepares students to become innovative leaders and problem-solvers in an ever-evolving technological landscape.</p>
-                    <p class="mb-4">Founded in 1985, we have grown into one of the premier engineering institutions, recognized for our commitment to academic excellence, cutting-edge research, and strong industry partnerships.</p>
-                    <p class="mb-4">Our faculty comprises distinguished researchers, industry veterans, and passionate educators who bring real-world expertise into the classroom, ensuring our students receive practical, relevant education.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Core Values -->
-    <section class="py-5 bg-light">
-        <div class="container">
-            <div class="text-center mb-5">
-                <h2 class="display-5 fw-bold mb-3">Our Core Values</h2>
-                <p class="lead text-muted">The principles that guide everything we do</p>
-            </div>
-            <div class="row g-4">
-                <div class="col-md-6 col-lg-3">
-                    <div class="card h-100 border-0 shadow-sm text-center p-4">
-                        <div class="card-body">
-                            <div class="mb-3" style="font-size: 3rem;">🎯</div>
-                            <h5 class="fw-bold mb-3">Excellence</h5>
-                            <p class="text-muted mb-0">Striving for the highest standards in education and research</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="card h-100 border-0 shadow-sm text-center p-4">
-                        <div class="card-body">
-                            <div class="mb-3" style="font-size: 3rem;">💡</div>
-                            <h5 class="fw-bold mb-3">Innovation</h5>
-                            <p class="text-muted mb-0">Fostering creativity and breakthrough thinking</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="card h-100 border-0 shadow-sm text-center p-4">
-                        <div class="card-body">
-                            <div class="mb-3" style="font-size: 3rem;">🤝</div>
-                            <h5 class="fw-bold mb-3">Integrity</h5>
-                            <p class="text-muted mb-0">Building trust through ethical practices</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="card h-100 border-0 shadow-sm text-center p-4">
-                        <div class="card-body">
-                            <div class="mb-3" style="font-size: 3rem;">🌍</div>
-                            <h5 class="fw-bold mb-3">Impact</h5>
-                            <p class="text-muted mb-0">Creating positive change in our world</p>
-                        </div>
-                    </div>
+                    <h2 class="h3 fw-bold mb-3">Our Mission</h2>
+                    <p>Engineering College is dedicated to preparing innovative engineers who will lead in solving complex global challenges. We combine rigorous academics with hands-on experience, fostering critical thinking and ethical leadership.</p>
+                    <p>Our faculty consists of accomplished researchers and industry professionals who bring real-world expertise into the classroom. With modern facilities and strong industry partnerships, we provide students with opportunities to apply their knowledge through internships, co-op programs, and collaborative research projects.</p>
+                    <h3 class="h5 fw-bold mt-4 mb-3">Our Values</h3>
+                    <ul class="list-unstyled">
+                        <li class="mb-2">✓ <strong>Innovation:</strong> Encouraging creative problem-solving and entrepreneurial thinking</li>
+                        <li class="mb-2">✓ <strong>Excellence:</strong> Maintaining the highest standards in education and research</li>
+                        <li class="mb-2">✓ <strong>Integrity:</strong> Upholding ethical principles in all endeavors</li>
+                        <li class="mb-2">✓ <strong>Collaboration:</strong> Building strong partnerships with industry and community</li>
+                    </ul>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Programs Section -->
-    <section class="py-5" id="programs">
-        <div class="container">
-            <div class="text-center mb-5">
-                <h2 class="display-5 fw-bold mb-3">Our Programs</h2>
-                <p class="lead text-muted">Comprehensive engineering programs designed for the future</p>
-            </div>
-
-            <!-- Program Filter Tabs -->
-            <div class="mb-4 text-center">
-                <button class="btn btn-outline-primary mx-2 mb-2 filter-btn active" data-filter="all">All Programs</button>
-                <button class="btn btn-outline-primary mx-2 mb-2 filter-btn" data-filter="bachelor">Bachelor's</button>
-                <button class="btn btn-outline-primary mx-2 mb-2 filter-btn" data-filter="master">Master's</button>
-            </div>
-
-            <!-- Programs Grid -->
-            <div class="row g-4" id="programsGrid">
-                <!-- Computer Engineering -->
-                <div class="col-md-6 col-lg-4 program-item" data-category="bachelor">
-                    <div class="card h-100 shadow-sm program-card">
-                        <div class="card-body p-4">
-                            <div class="program-icon mb-3">💻</div>
-                            <span class="badge bg-primary mb-2">Bachelor's Degree</span>
-                            <h4 class="card-title mb-3">Computer Engineering</h4>
-                            <p class="card-text text-muted mb-3">Master the fundamentals of software development, artificial intelligence, machine learning, and computer systems architecture.</p>
-                            <ul class="list-unstyled text-muted small">
-                                <li class="mb-2">📅 Duration: 4 years</li>
-                                <li class="mb-2">🎓 Degree: B.Sc. in Computer Engineering</li>
-                                <li class="mb-2">💼 Career: Software Engineer, AI Specialist</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Electrical Engineering -->
-                <div class="col-md-6 col-lg-4 program-item" data-category="bachelor">
-                    <div class="card h-100 shadow-sm program-card">
-                        <div class="card-body p-4">
-                            <div class="program-icon mb-3">⚡</div>
-                            <span class="badge bg-primary mb-2">Bachelor's Degree</span>
-                            <h4 class="card-title mb-3">Electrical Engineering</h4>
-                            <p class="card-text text-muted mb-3">Explore power systems, electronics, control systems, and renewable energy technologies for sustainable solutions.</p>
-                            <ul class="list-unstyled text-muted small">
-                                <li class="mb-2">📅 Duration: 4 years</li>
-                                <li class="mb-2">🎓 Degree: B.Sc. in Electrical Engineering</li>
-                                <li class="mb-2">💼 Career: Power Systems Engineer, Electronics Designer</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Civil Engineering -->
-                <div class="col-md-6 col-lg-4 program-item" data-category="bachelor">
-                    <div class="card h-100 shadow-sm program-card">
-                        <div class="card-body p-4">
-                            <div class="program-icon mb-3">🏗️</div>
-                            <span class="badge bg-primary mb-2">Bachelor's Degree</span>
-                            <h4 class="card-title mb-3">Civil Engineering</h4>
-                            <p class="card-text text-muted mb-3">Design and build sustainable infrastructure, including bridges, buildings, water systems, and transportation networks.</p>
-                            <ul class="list-unstyled text-muted small">
-                                <li class="mb-2">📅 Duration: 4 years</li>
-                                <li class="mb-2">🎓 Degree: B.Sc. in Civil Engineering</li>
-                                <li class="mb-2">💼 Career: Structural Engineer, Project Manager</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Mechanical Engineering -->
-                <div class="col-md-6 col-lg-4 program-item" data-category="bachelor">
-                    <div class="card h-100 shadow-sm program-card">
-                        <div class="card-body p-4">
-                            <div class="program-icon mb-3">⚙️</div>
-                            <span class="badge bg-primary mb-2">Bachelor's Degree</span>
-                            <h4 class="card-title mb-3">Mechanical Engineering</h4>
-                            <p class="card-text text-muted mb-3">Study thermodynamics, robotics, manufacturing, and materials science to design innovative mechanical systems.</p>
-                            <ul class="list-unstyled text-muted small">
-                                <li class="mb-2">📅 Duration: 4 years</li>
-                                <li class="mb-2">🎓 Degree: B.Sc. in Mechanical Engineering</li>
-                                <li class="mb-2">💼 Career: Mechanical Designer, Automation Engineer</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Chemical Engineering -->
-                <div class="col-md-6 col-lg-4 program-item" data-category="bachelor">
-                    <div class="card h-100 shadow-sm program-card">
-                        <div class="card-body p-4">
-                            <div class="program-icon mb-3">🧪</div>
-                            <span class="badge bg-primary mb-2">Bachelor's Degree</span>
-                            <h4 class="card-title mb-3">Chemical Engineering</h4>
-                            <p class="card-text text-muted mb-3">Transform raw materials into valuable products through chemistry, biology, and advanced process engineering.</p>
-                            <ul class="list-unstyled text-muted small">
-                                <li class="mb-2">📅 Duration: 4 years</li>
-                                <li class="mb-2">🎓 Degree: B.Sc. in Chemical Engineering</li>
-                                <li class="mb-2">💼 Career: Process Engineer, Research Scientist</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Aerospace Engineering -->
-                <div class="col-md-6 col-lg-4 program-item" data-category="bachelor">
-                    <div class="card h-100 shadow-sm program-card">
-                        <div class="card-body p-4">
-                            <div class="program-icon mb-3">✈️</div>
-                            <span class="badge bg-primary mb-2">Bachelor's Degree</span>
-                            <h4 class="card-title mb-3">Aerospace Engineering</h4>
-                            <p class="card-text text-muted mb-3">Design and develop aircraft, spacecraft, satellites, and missiles for the aerospace industry.</p>
-                            <ul class="list-unstyled text-muted small">
-                                <li class="mb-2">📅 Duration: 4 years</li>
-                                <li class="mb-2">🎓 Degree: B.Sc. in Aerospace Engineering</li>
-                                <li class="mb-2">💼 Career: Aerospace Engineer, Flight Systems Designer</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Master's Programs -->
-                <div class="col-md-6 col-lg-4 program-item" data-category="master">
-                    <div class="card h-100 shadow-sm program-card">
-                        <div class="card-body p-4">
-                            <div class="program-icon mb-3">🤖</div>
-                            <span class="badge bg-success mb-2">Master's Degree</span>
-                            <h4 class="card-title mb-3">Artificial Intelligence</h4>
-                            <p class="card-text text-muted mb-3">Advanced study in machine learning, deep learning, natural language processing, and computer vision.</p>
-                            <ul class="list-unstyled text-muted small">
-                                <li class="mb-2">📅 Duration: 2 years</li>
-                                <li class="mb-2">🎓 Degree: M.Sc. in Artificial Intelligence</li>
-                                <li class="mb-2">💼 Career: AI Researcher, ML Engineer</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4 program-item" data-category="master">
-                    <div class="card h-100 shadow-sm program-card">
-                        <div class="card-body p-4">
-                            <div class="program-icon mb-3">♻️</div>
-                            <span class="badge bg-success mb-2">Master's Degree</span>
-                            <h4 class="card-title mb-3">Sustainable Energy</h4>
-                            <p class="card-text text-muted mb-3">Focus on renewable energy systems, energy efficiency, and sustainable power generation technologies.</p>
-                            <ul class="list-unstyled text-muted small">
-                                <li class="mb-2">📅 Duration: 2 years</li>
-                                <li class="mb-2">🎓 Degree: M.Sc. in Sustainable Energy</li>
-                                <li class="mb-2">💼 Career: Energy Consultant, Sustainability Engineer</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4 program-item" data-category="master">
-                    <div class="card h-100 shadow-sm program-card">
-                        <div class="card-body p-4">
-                            <div class="program-icon mb-3">🔒</div>
-                            <span class="badge bg-success mb-2">Master's Degree</span>
-                            <h4 class="card-title mb-3">Cybersecurity</h4>
-                            <p class="card-text text-muted mb-3">Comprehensive training in network security, cryptography, ethical hacking, and digital forensics.</p>
-                            <ul class="list-unstyled text-muted small">
-                                <li class="mb-2">📅 Duration: 2 years</li>
-                                <li class="mb-2">🎓 Degree: M.Sc. in Cybersecurity</li>
-                                <li class="mb-2">💼 Career: Security Analyst, Penetration Tester</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Accreditation Section -->
     <section class="py-5 bg-light">
         <div class="container">
             <div class="text-center mb-5">
-                <h2 class="display-5 fw-bold mb-3">Accreditation & Recognition</h2>
-                <p class="lead text-muted">Our commitment to quality is recognized worldwide</p>
+                <h2 class="display-5 fw-bold">Our Programs</h2>
+                <p class="lead text-muted">Choose from five specialized engineering disciplines</p>
             </div>
-            <div class="row g-4 text-center">
-                <div class="col-md-3 col-6">
-                    <div class="p-4">
-                        <div class="mb-3" style="font-size: 3rem;">🏆</div>
-                        <p class="fw-bold mb-0">ABET Accredited</p>
+
+            <!-- Program Filter (Interactive Feature #1) -->
+            <div class="text-center mb-4">
+                <div class="btn-group" role="group" aria-label="Filter programs by study mode">
+                    <button type="button" class="btn btn-outline-primary active" data-filter="all">All Programs</button>
+                    <button type="button" class="btn btn-outline-primary" data-filter="4-year">4-Year Programs</button>
+                    <button type="button" class="btn btn-outline-primary" data-filter="accelerated">Accelerated Options</button>
+                </div>
+            </div>
+
+            <!-- Computer Engineering -->
+            <div class="card mb-4 shadow-sm program-card" data-program="4-year" id="computer">
+                <div class="card-header bg-primary text-white">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h3 class="h4 mb-0">Computer Engineering</h3>
+                        <button class="btn btn-sm btn-light toggle-details" aria-expanded="false" aria-controls="computerDetails">
+                            <span class="toggle-icon">+</span> Details
+                        </button>
                     </div>
                 </div>
-                <div class="col-md-3 col-6">
-                    <div class="p-4">
-                        <div class="mb-3" style="font-size: 3rem;">⭐</div>
-                        <p class="fw-bold mb-0">Top 50 Engineering Schools</p>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-3 mb-3 mb-md-0">
+                            <img src="assets/images/program-computer.svg" alt="Computer Engineering program icon" class="img-fluid">
+                        </div>
+                        <div class="col-md-9">
+                            <p class="lead">Master the design and development of computer systems, software, and intelligent applications.</p>
+                            <p><strong>Duration:</strong> 4 years (8 semesters)</p>
+                            <p><strong>Degree:</strong> Bachelor of Science in Computer Engineering</p>
+                            
+                            <div class="program-details collapse" id="computerDetails">
+                                <hr>
+                                <h4 class="h6 fw-bold">Core Topics</h4>
+                                <ul>
+                                    <li>Data Structures and Algorithms</li>
+                                    <li>Computer Architecture and Organization</li>
+                                    <li>Software Engineering Principles</li>
+                                    <li>Artificial Intelligence and Machine Learning</li>
+                                    <li>Database Systems and Cloud Computing</li>
+                                    <li>Cybersecurity and Network Design</li>
+                                </ul>
+                                <h4 class="h6 fw-bold mt-3">Career Paths</h4>
+                                <p>Software Developer, AI Engineer, Systems Architect, Cybersecurity Analyst, Data Scientist</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-3 col-6">
-                    <div class="p-4">
-                        <div class="mb-3" style="font-size: 3rem;">🌐</div>
-                        <p class="fw-bold mb-0">International Partnerships</p>
+            </div>
+
+            <!-- Electrical Engineering -->
+            <div class="card mb-4 shadow-sm program-card" data-program="4-year" id="electrical">
+                <div class="card-header bg-primary text-white">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h3 class="h4 mb-0">Electrical Engineering</h3>
+                        <button class="btn btn-sm btn-light toggle-details" aria-expanded="false" aria-controls="electricalDetails">
+                            <span class="toggle-icon">+</span> Details
+                        </button>
                     </div>
                 </div>
-                <div class="col-md-3 col-6">
-                    <div class="p-4">
-                        <div class="mb-3" style="font-size: 3rem;">📜</div>
-                        <p class="fw-bold mb-0">Industry Certified Programs</p>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-3 mb-3 mb-md-0">
+                            <img src="assets/images/program-electrical.svg" alt="Electrical Engineering program icon" class="img-fluid">
+                        </div>
+                        <div class="col-md-9">
+                            <p class="lead">Design electrical systems, power generation solutions, and electronic devices that power modern life.</p>
+                            <p><strong>Duration:</strong> 4 years (8 semesters)</p>
+                            <p><strong>Degree:</strong> Bachelor of Science in Electrical Engineering</p>
+                            
+                            <div class="program-details collapse" id="electricalDetails">
+                                <hr>
+                                <h4 class="h6 fw-bold">Core Topics</h4>
+                                <ul>
+                                    <li>Circuit Analysis and Design</li>
+                                    <li>Electromagnetics and Wave Theory</li>
+                                    <li>Power Systems and Renewable Energy</li>
+                                    <li>Control Systems and Automation</li>
+                                    <li>Digital Signal Processing</li>
+                                    <li>Microelectronics and VLSI Design</li>
+                                </ul>
+                                <h4 class="h6 fw-bold mt-3">Career Paths</h4>
+                                <p>Power Systems Engineer, Electronics Designer, Control Systems Engineer, Renewable Energy Specialist, Telecommunications Engineer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Civil Engineering -->
+            <div class="card mb-4 shadow-sm program-card" data-program="4-year accelerated" id="civil">
+                <div class="card-header bg-primary text-white">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h3 class="h4 mb-0">Civil Engineering</h3>
+                        <button class="btn btn-sm btn-light toggle-details" aria-expanded="false" aria-controls="civilDetails">
+                            <span class="toggle-icon">+</span> Details
+                        </button>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-3 mb-3 mb-md-0">
+                            <img src="assets/images/program-civil.svg" alt="Civil Engineering program icon" class="img-fluid">
+                        </div>
+                        <div class="col-md-9">
+                            <p class="lead">Plan, design, and oversee construction of infrastructure that shapes our communities and environment.</p>
+                            <p><strong>Duration:</strong> 4 years (8 semesters) or 3 years (accelerated)</p>
+                            <p><strong>Degree:</strong> Bachelor of Science in Civil Engineering</p>
+                            
+                            <div class="program-details collapse" id="civilDetails">
+                                <hr>
+                                <h4 class="h6 fw-bold">Core Topics</h4>
+                                <ul>
+                                    <li>Structural Analysis and Design</li>
+                                    <li>Geotechnical Engineering</li>
+                                    <li>Transportation Systems</li>
+                                    <li>Water Resources and Hydraulics</li>
+                                    <li>Environmental Engineering</li>
+                                    <li>Construction Management</li>
+                                </ul>
+                                <h4 class="h6 fw-bold mt-3">Career Paths</h4>
+                                <p>Structural Engineer, Transportation Planner, Construction Manager, Environmental Engineer, Urban Infrastructure Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mechanical Engineering -->
+            <div class="card mb-4 shadow-sm program-card" data-program="4-year accelerated">
+                <div class="card-header bg-primary text-white">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h3 class="h4 mb-0">Mechanical Engineering</h3>
+                        <button class="btn btn-sm btn-light toggle-details" aria-expanded="false" aria-controls="mechanicalDetails">
+                            <span class="toggle-icon">+</span> Details
+                        </button>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-3 mb-3 mb-md-0">
+                            <div class="text-center py-4">
+                                <span style="font-size: 80px;">⚙️</span>
+                            </div>
+                        </div>
+                        <div class="col-md-9">
+                            <p class="lead">Create innovative mechanical systems, from robotics to renewable energy technologies.</p>
+                            <p><strong>Duration:</strong> 4 years (8 semesters) or 3 years (accelerated)</p>
+                            <p><strong>Degree:</strong> Bachelor of Science in Mechanical Engineering</p>
+                            
+                            <div class="program-details collapse" id="mechanicalDetails">
+                                <hr>
+                                <h4 class="h6 fw-bold">Core Topics</h4>
+                                <ul>
+                                    <li>Thermodynamics and Heat Transfer</li>
+                                    <li>Mechanics of Materials</li>
+                                    <li>Fluid Mechanics</li>
+                                    <li>Machine Design and Manufacturing</li>
+                                    <li>Robotics and Mechatronics</li>
+                                    <li>Energy Systems</li>
+                                </ul>
+                                <h4 class="h6 fw-bold mt-3">Career Paths</h4>
+                                <p>Mechanical Designer, Automotive Engineer, HVAC Engineer, Robotics Engineer, Manufacturing Engineer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Chemical Engineering -->
+            <div class="card mb-4 shadow-sm program-card" data-program="4-year">
+                <div class="card-header bg-primary text-white">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h3 class="h4 mb-0">Chemical Engineering</h3>
+                        <button class="btn btn-sm btn-light toggle-details" aria-expanded="false" aria-controls="chemicalDetails">
+                            <span class="toggle-icon">+</span> Details
+                        </button>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-3 mb-3 mb-md-0">
+                            <div class="text-center py-4">
+                                <span style="font-size: 80px;">🧪</span>
+                            </div>
+                        </div>
+                        <div class="col-md-9">
+                            <p class="lead">Transform raw materials into valuable products through chemical processes and sustainable solutions.</p>
+                            <p><strong>Duration:</strong> 4 years (8 semesters)</p>
+                            <p><strong>Degree:</strong> Bachelor of Science in Chemical Engineering</p>
+                            
+                            <div class="program-details collapse" id="chemicalDetails">
+                                <hr>
+                                <h4 class="h6 fw-bold">Core Topics</h4>
+                                <ul>
+                                    <li>Chemical Process Design</li>
+                                    <li>Reaction Engineering</li>
+                                    <li>Process Control and Optimization</li>
+                                    <li>Thermodynamics</li>
+                                    <li>Biochemical Engineering</li>
+                                    <li>Environmental and Safety Engineering</li>
+                                </ul>
+                                <h4 class="h6 fw-bold mt-3">Career Paths</h4>
+                                <p>Process Engineer, Pharmaceutical Engineer, Environmental Engineer, Petrochemical Engineer, Biotechnology Specialist</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- CTA Section -->
-    <section class="cta-section py-5 text-white text-center">
+    <!-- Call to Action -->
+    <section class="py-5 bg-primary text-white text-center">
         <div class="container">
-            <h2 class="display-5 fw-bold mb-4">Ready to Begin Your Engineering Journey?</h2>
-            <p class="lead mb-4">Join thousands of successful alumni who started here</p>
-            <div class="d-flex gap-3 justify-content-center flex-wrap">
-                <a href="registration.html" class="btn btn-light btn-lg px-5 py-3">Apply Now</a>
-                <a href="admissions.html" class="btn btn-outline-light btn-lg px-5 py-3">View Admissions</a>
-            </div>
+            <h2 class="display-5 fw-bold mb-3">Ready to Start Your Journey?</h2>
+            <p class="lead mb-4">Applications are now open for the upcoming academic year.</p>
+            <a href="registration.html" class="btn btn-light btn-lg text-primary">Apply Now</a>
         </div>
     </section>
 
@@ -346,34 +305,35 @@
     <footer class="bg-dark text-white py-5">
         <div class="container">
             <div class="row g-4">
-                <div class="col-lg-4">
+                <div class="col-md-4">
                     <h5 class="fw-bold mb-3">Engineering College</h5>
-                    <p class="text-muted">Empowering future engineers to create innovative solutions for global challenges.</p>
+                    <p>Empowering the next generation of engineers to solve tomorrow's challenges.</p>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-md-4">
                     <h5 class="fw-bold mb-3">Quick Links</h5>
                     <ul class="list-unstyled">
-                        <li class="mb-2"><a href="about.html" class="text-muted text-decoration-none">About & Programs</a></li>
-                        <li class="mb-2"><a href="admissions.html" class="text-muted text-decoration-none">Admissions</a></li>
-                        <li class="mb-2"><a href="student-life.html" class="text-muted text-decoration-none">Student Life</a></li>
-                        <li class="mb-2"><a href="contact.html" class="text-muted text-decoration-none">Contact Us</a></li>
+                        <li><a href="about.html" class="text-white-50 text-decoration-none">About & Programs</a></li>
+                        <li><a href="admissions.html" class="text-white-50 text-decoration-none">Admissions</a></li>
+                        <li><a href="student-life.html" class="text-white-50 text-decoration-none">Student Life</a></li>
+                        <li><a href="contact.html" class="text-white-50 text-decoration-none">Contact Us</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-md-4">
                     <h5 class="fw-bold mb-3">Contact Info</h5>
-                    <p class="text-muted mb-2">📍 123 Innovation Drive, Tech City</p>
-                    <p class="text-muted mb-2">📧 info@engineeringcollege.edu</p>
-                    <p class="text-muted mb-2">📞 +1 (555) 123-4567</p>
+                    <p class="text-white-50 mb-1">123 Innovation Drive</p>
+                    <p class="text-white-50 mb-1">Tech City, TC 12345</p>
+                    <p class="text-white-50 mb-1">Phone: (555) 123-4567</p>
+                    <p class="text-white-50">Email: info@engineeringcollege.edu</p>
                 </div>
             </div>
-            <hr class="my-4 border-secondary">
-            <div class="text-center text-muted">
+            <hr class="my-4 bg-white">
+            <div class="text-center text-white-50">
                 <p class="mb-0">&copy; 2025 Engineering College. All rights reserved.</p>
             </div>
         </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 </html>

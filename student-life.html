@@ -1,123 +1,375 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="color-scheme" content="light dark">
-  <title>Engineering College</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7OMl5F0e1U9vYjE6uH8g7SkG7tNT5dlt0J9" crossorigin="anonymous">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/style.css" />
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Life - Engineering College</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top shadow-sm">
-    <div class="container">
-      <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
-        <img src="assets/images/logo.svg" alt="Engineering College logo" height="28">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="nav">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0" id="mainNav">
-          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="programs.html">Programs</a></li>
-          <li class="nav-item"><a class="nav-link" href="admissions.html">Admissions</a></li>
-          <li class="nav-item"><a class="nav-link" href="student-life.html">Student Life</a></li>
-          <li class="nav-item"><a class="nav-link" href="registration.html">Registration</a></li>
-          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-<main class="pt-5 container">
-  <div class="py-5">
-    <h1 class="h2 mb-3">Student Life</h1>
-    <p class="text-secondary">Clubs, events, and announcements that make campus vibrant.</p>
+    <!-- Fixed Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="assets/images/logo.svg" alt="Engineering College Logo" height="40" class="me-2">
+                <span class="fw-bold">Engineering College</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About & Programs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="admissions.html">Admissions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="student-life.html">Student Life</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-light text-primary ms-lg-2" href="registration.html">Apply Now</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-    <ul class="nav nav-tabs" id="lifeTabs" role="tablist">
-      <li class="nav-item" role="presentation">
-        <button class="nav-link active" id="clubs-tab" data-bs-toggle="tab" data-bs-target="#clubs" type="button" role="tab" aria-controls="clubs" aria-selected="true">Clubs</button>
-      </li>
-      <li class="nav-item" role="presentation">
-        <button class="nav-link" id="events-tab" data-bs-toggle="tab" data-bs-target="#events" type="button" role="tab" aria-controls="events" aria-selected="false">Events</button>
-      </li>
-      <li class="nav-item" role="presentation">
-        <button class="nav-link" id="news-tab" data-bs-toggle="tab" data-bs-target="#news" type="button" role="tab" aria-controls="news" aria-selected="false">News</button>
-      </li>
-    </ul>
-    <div class="tab-content border-start border-end border-bottom p-3 rounded-bottom" id="lifeTabsContent">
-      <div class="tab-pane fade show active" id="clubs" role="tabpanel" aria-labelledby="clubs-tab">
-        <div class="row g-3">
-          <div class="col-md-6">
-            <div class="p-3 bg-light rounded-3">
-              <strong>Robotics Club</strong><br>Weekly builds and competitions. <span tabindex="0" data-bs-toggle="tooltip" title="Open to all levels">?</span>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="p-3 bg-light rounded-3">
-              <strong>Developers Guild</strong><br>Hack nights and open source projects.
-            </div>
-          </div>
+    <!-- Page Header -->
+    <section class="page-header bg-light">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Student Life</h1>
+            <p class="lead">More than just academics—join a vibrant campus community</p>
         </div>
-      </div>
-      <div class="tab-pane fade" id="events" role="tabpanel" aria-labelledby="events-tab">
-        <ul class="list-group">
-          <li class="list-group-item">Career Fair — Nov 20</li>
-          <li class="list-group-item">Engineering Expo — Dec 2</li>
-        </ul>
-      </div>
-      <div class="tab-pane fade" id="news" role="tabpanel" aria-labelledby="news-tab">
-        <div class="accordion" id="newsAcc">
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="h1">
-              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#c1" aria-expanded="true" aria-controls="c1">
-                New Maker Lab Opens
-              </button>
-            </h2>
-            <div id="c1" class="accordion-collapse collapse show" aria-labelledby="h1" data-bs-parent="#newsAcc">
-              <div class="accordion-body">Our new lab includes 3D printers, CNC, and electronics benches.</div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="h2">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c2" aria-expanded="false" aria-controls="c2">
-                Scholarship Results
-              </button>
-            </h2>
-            <div id="c2" class="accordion-collapse collapse" aria-labelledby="h2" data-bs-parent="#newsAcc">
-              <div class="accordion-body">Merit‑based awards announced in student portal.</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</main>
-  <footer class="py-5 mt-5 border-top">
-    <div class="container small text-muted">
-      <div class="row g-4">
-        <div class="col-md">
-          <strong>Engineering College</strong><br>
-          123 Innovation Ave, Technopolis<br>
-          +1 (555) 010-2025 · info@engcollege.edu
-        </div>
-        <div class="col-md">
-          <div class="d-flex gap-3">
-            <a href="about.html" class="link-secondary">About</a>
-            <a href="admissions.html" class="link-secondary">Admissions</a>
-            <a href="student-life.html" class="link-secondary">Student Life</a>
-            <a href="contact.html" class="link-secondary">Contact</a>
-          </div>
-          <div class="mt-2">© <span id="year"></span> Engineering College</div>
-        </div>
-      </div>
-    </div>
-  </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  <script src="assets/js/main.js"></script>
+    </section>
 
+    <!-- Campus Life Overview -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row align-items-center mb-5">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <h2 class="h3 fw-bold mb-3">Life at Engineering College</h2>
+                    <p>At Engineering College, learning extends far beyond the classroom. Our campus offers a dynamic environment where students can explore their interests, develop leadership skills, and build lifelong friendships. From cutting-edge research opportunities to exciting social events, there's always something happening on campus.</p>
+                    <p>With over 50 student organizations, state-of-the-art facilities, and a supportive community, you'll find countless ways to grow personally and professionally while pursuing your engineering degree.</p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="assets/images/campus.svg" alt="Students on campus" class="img-fluid rounded shadow">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Student Organizations -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="h3 fw-bold text-center mb-5">Student Organizations & Clubs</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <div class="text-center mb-3">
+                                <span style="font-size: 48px;">🤖</span>
+                            </div>
+                            <h3 class="h5 fw-bold text-center">Robotics Club</h3>
+                            <p class="text-muted">Design, build, and compete with autonomous robots in national competitions. Learn hands-on robotics and AI programming.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <div class="text-center mb-3">
+                                <span style="font-size: 48px;">💻</span>
+                            </div>
+                            <h3 class="h5 fw-bold text-center">Coding Society</h3>
+                            <p class="text-muted">Participate in hackathons, coding competitions, and collaborative software projects with fellow developers.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <div class="text-center mb-3">
+                                <span style="font-size: 48px;">🚀</span>
+                            </div>
+                            <h3 class="h5 fw-bold text-center">Aerospace Team</h3>
+                            <p class="text-muted">Work on rocket design projects and compete in collegiate aerospace engineering competitions.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <div class="text-center mb-3">
+                                <span style="font-size: 48px;">🌱</span>
+                            </div>
+                            <h3 class="h5 fw-bold text-center">Engineers for Sustainability</h3>
+                            <p class="text-muted">Develop green technologies and promote environmental awareness through engineering solutions.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <div class="text-center mb-3">
+                                <span style="font-size: 48px;">👥</span>
+                            </div>
+                            <h3 class="h5 fw-bold text-center">Society of Women Engineers</h3>
+                            <p class="text-muted">Support and empower women in engineering through mentorship, networking, and professional development.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <div class="text-center mb-3">
+                                <span style="font-size: 48px;">🏎️</span>
+                            </div>
+                            <h3 class="h5 fw-bold text-center">Formula Racing Team</h3>
+                            <p class="text-muted">Design, build, and race formula-style vehicles in intercollegiate engineering competitions.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Campus News & Events -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="h3 fw-bold text-center mb-5">Latest News & Events</h2>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <article class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <span class="badge bg-danger mb-2">Competition</span>
+                            <h3 class="h5 fw-bold">Hackathon 2025 Registration Open</h3>
+                            <p class="text-muted small mb-2">May 10-12, 2025</p>
+                            <p>48-hour coding marathon with prizes, mentorship, and opportunities to build innovative solutions to real-world problems.</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <article class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <span class="badge bg-secondary mb-2">Social</span>
+                            <h3 class="h5 fw-bold">Spring Engineering Gala</h3>
+                            <p class="text-muted small mb-2">April 20, 2025</p>
+                            <p>Celebrate the achievements of our students and faculty at this annual formal event featuring dinner, awards, and entertainment.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Campus Facilities -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="h3 fw-bold text-center mb-5">Campus Facilities</h2>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="d-flex">
+                        <div class="flex-shrink-0 me-3">
+                            <span style="font-size: 40px;">🔬</span>
+                        </div>
+                        <div>
+                            <h3 class="h5 fw-bold">Research Laboratories</h3>
+                            <p class="text-muted">State-of-the-art labs equipped with advanced instrumentation for hands-on research and experimentation.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="d-flex">
+                        <div class="flex-shrink-0 me-3">
+                            <span style="font-size: 40px;">📚</span>
+                        </div>
+                        <div>
+                            <h3 class="h5 fw-bold">Engineering Library</h3>
+                            <p class="text-muted">Extensive collection of technical resources, study spaces, and 24/7 access during exam periods.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="d-flex">
+                        <div class="flex-shrink-0 me-3">
+                            <span style="font-size: 40px;">🏋️</span>
+                        </div>
+                        <div>
+                            <h3 class="h5 fw-bold">Recreation Center</h3>
+                            <p class="text-muted">Modern fitness facilities, indoor courts, swimming pool, and group exercise classes.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="d-flex">
+                        <div class="flex-shrink-0 me-3">
+                            <span style="font-size: 40px;">🏠</span>
+                        </div>
+                        <div>
+                            <h3 class="h5 fw-bold">Student Housing</h3>
+                            <p class="text-muted">On-campus residence halls and apartments with modern amenities and community spaces.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="d-flex">
+                        <div class="flex-shrink-0 me-3">
+                            <span style="font-size: 40px;">🍽️</span>
+                        </div>
+                        <div>
+                            <h3 class="h5 fw-bold">Dining Options</h3>
+                            <p class="text-muted">Multiple dining halls and cafes offering diverse cuisine options to accommodate all dietary needs.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="d-flex">
+                        <div class="flex-shrink-0 me-3">
+                            <span style="font-size: 40px;">🎨</span>
+                        </div>
+                        <div>
+                            <h3 class="h5 fw-bold">Maker Space</h3>
+                            <p class="text-muted">3D printers, laser cutters, electronics workbenches, and tools for prototyping your ideas.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Student Testimonials -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="h3 fw-bold text-center mb-5">Student Voices</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <p class="fst-italic">"The hands-on projects and industry connections have given me real-world experience that sets me apart in the job market. I landed my dream internship through a connection I made at a campus career fair."</p>
+                            <div class="mt-3">
+                                <strong>Sarah Chen</strong>
+                                <p class="text-muted small mb-0">Computer Engineering, Class of 2025</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <p class="fst-italic">"Being part of the Formula Racing Team taught me as much as my classes. Working with teammates to solve complex engineering challenges prepared me for my career better than anything else."</p>
+                            <div class="mt-3">
+                                <strong>Marcus Johnson</strong>
+                                <p class="text-muted small mb-0">Mechanical Engineering, Class of 2024</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <p class="fst-italic">"The supportive community here made all the difference. Professors know you by name, and there are so many resources to help you succeed academically and personally."</p>
+                            <div class="mt-3">
+                                <strong>Priya Patel</strong>
+                                <p class="text-muted small mb-0">Electrical Engineering, Class of 2026</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="py-5 bg-primary text-white text-center">
+        <div class="container">
+            <h2 class="display-5 fw-bold mb-3">Experience Campus Life Yourself</h2>
+            <p class="lead mb-4">Schedule a campus tour or attend one of our open house events.</p>
+            <a href="contact.html" class="btn btn-light btn-lg text-primary">Contact Admissions</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <h5 class="fw-bold mb-3">Engineering College</h5>
+                    <p>Empowering the next generation of engineers to solve tomorrow's challenges.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="fw-bold mb-3">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="about.html" class="text-white-50 text-decoration-none">About & Programs</a></li>
+                        <li><a href="admissions.html" class="text-white-50 text-decoration-none">Admissions</a></li>
+                        <li><a href="student-life.html" class="text-white-50 text-decoration-none">Student Life</a></li>
+                        <li><a href="contact.html" class="text-white-50 text-decoration-none">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="fw-bold mb-3">Contact Info</h5>
+                    <p class="text-white-50 mb-1">123 Innovation Drive</p>
+                    <p class="text-white-50 mb-1">Tech City, TC 12345</p>
+                    <p class="text-white-50 mb-1">Phone: (555) 123-4567</p>
+                    <p class="text-white-50">Email: info@engineeringcollege.edu</p>
+                </div>
+            </div>
+            <hr class="my-4 bg-white">
+            <div class="text-center text-white-50">
+                <p class="mb-0">&copy; 2025 Engineering College. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
-</html>
+</html>d-6">
+                    <article class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <span class="badge bg-primary mb-2">Event</span>
+                            <h3 class="h5 fw-bold">Annual Tech Symposium 2025</h3>
+                            <p class="text-muted small mb-2">March 15, 2025</p>
+                            <p>Join industry leaders and researchers for a day of presentations, workshops, and networking opportunities focused on emerging technologies.</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <article class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <span class="badge bg-success mb-2">Achievement</span>
+                            <h3 class="h5 fw-bold">Students Win National Robotics Competition</h3>
+                            <p class="text-muted small mb-2">February 20, 2025</p>
+                            <p>Our Robotics Club took first place at the National Collegiate Robotics Championship, showcasing innovative autonomous navigation systems.</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <article class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <span class="badge bg-info mb-2">News</span>
+                            <h3 class="h5 fw-bold">New Research Lab Opens</h3>
+                            <p class="text-muted small mb-2">January 10, 2025</p>
+                            <p>The Quantum Computing Research Lab officially opened, providing students access to cutting-edge quantum computing technology.</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <article class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <span class="badge bg-warning text-dark mb-2">Workshop</span>
+                            <h3 class="h5 fw-bold">Career Fair Spring 2025</h3>
+                            <p class="text-muted small mb-2">April 5, 2025</p>
+                            <p>Meet with over 100 top engineering employers seeking interns and full-time hires. Bring your resume and professional attire.</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-m

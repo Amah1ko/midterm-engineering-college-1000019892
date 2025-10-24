@@ -3,20 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Admissions information for Engineering College">
     <title>Admissions - Engineering College</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <!-- Fixed Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <!-- Fixed Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
         <div class="container">
-            <a class="navbar-brand fw-bold" href="index.html">
-                <span class="brand-icon">⚙️</span> Engineering College
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="assets/images/logo.svg" alt="Engineering College Logo" height="40" class="me-2">
+                <span class="fw-bold">Engineering College</span>
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -37,7 +36,7 @@
                         <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn-register" href="registration.html">Register Now</a>
+                        <a class="nav-link btn btn-light text-primary ms-lg-2" href="registration.html">Apply Now</a>
                     </li>
                 </ul>
             </div>
@@ -45,33 +44,54 @@
     </nav>
 
     <!-- Page Header -->
-    <section class="page-header bg-gradient text-white text-center py-5">
-        <div class="container" style="margin-top: 80px;">
-            <h1 class="display-4 fw-bold mb-3">Admissions</h1>
-            <p class="lead">Your Journey to Engineering Excellence Starts Here</p>
+    <section class="page-header bg-light">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Admissions</h1>
+            <p class="lead">Your pathway to an engineering career starts here</p>
         </div>
     </section>
 
     <!-- Admissions Overview -->
     <section class="py-5">
         <div class="container">
-            <div class="row g-5 align-items-center">
-                <div class="col-lg-6">
-                    <h2 class="display-5 fw-bold mb-4">Join Our Community</h2>
-                    <p class="lead text-muted mb-4">Engineering College welcomes talented and motivated students from around the world who are passionate about making a difference through engineering.</p>
-                    <p class="mb-4">We offer a holistic admissions process that evaluates academic achievement, personal character, and potential for success. Our admissions team is committed to finding students who will thrive in our challenging yet supportive environment.</p>
-                    <div class="alert alert-info border-0">
-                        <h5 class="fw-bold mb-2">📅 Application Deadlines</h5>
-                        <p class="mb-1"><strong>Fall 2025:</strong> Applications open now until June 30, 2025</p>
-                        <p class="mb-0"><strong>Spring 2026:</strong> Applications open October 1, 2025</p>
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center mb-5">
+                    <h2 class="h3 fw-bold mb-3">Join Our Community of Innovators</h2>
+                    <p>Engineering College welcomes students who are passionate about technology, problem-solving, and making a positive impact on the world. Our admissions process is designed to identify talented individuals who will thrive in our rigorous yet supportive academic environment.</p>
+                </div>
+            </div>
+
+            <div class="row g-4 mb-5">
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm text-center">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <span style="font-size: 48px;">📝</span>
+                            </div>
+                            <h3 class="h5 fw-bold">Step 1: Apply Online</h3>
+                            <p class="text-muted">Complete our online application form with your academic records and personal information.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="image-placeholder bg-gradient p-5 rounded-3 text-center text-white">
-                        <div class="py-5">
-                            <p class="display-1 mb-3">📚</p>
-                            <h4>Start Your Application</h4>
-                            <p class="mb-0">Begin your journey today</p>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm text-center">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <span style="font-size: 48px;">📄</span>
+                            </div>
+                            <h3 class="h5 fw-bold">Step 2: Submit Documents</h3>
+                            <p class="text-muted">Upload transcripts, test scores, recommendation letters, and supporting materials.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm text-center">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <span style="font-size: 48px;">✅</span>
+                            </div>
+                            <h3 class="h5 fw-bold">Step 3: Review & Decision</h3>
+                            <p class="text-muted">Our admissions team reviews your application and notifies you of the decision.</p>
                         </div>
                     </div>
                 </div>
@@ -79,194 +99,37 @@
         </div>
     </section>
 
-    <!-- Application Process -->
+    <!-- Application Process Timeline -->
     <section class="py-5 bg-light">
         <div class="container">
-            <div class="text-center mb-5">
-                <h2 class="display-5 fw-bold mb-3">Application Process</h2>
-                <p class="lead text-muted">Follow these simple steps to complete your application</p>
-            </div>
-
-            <!-- Interactive Steps -->
+            <h2 class="h3 fw-bold text-center mb-5">Application Timeline</h2>
             <div class="row g-4">
-                <div class="col-lg-12">
-                    <div class="accordion" id="applicationSteps">
-                        <!-- Step 1 -->
-                        <div class="accordion-item border-0 shadow-sm mb-3">
-                            <h3 class="accordion-header">
-                                <button class="accordion-button fs-5 fw-bold" type="button" data-bs-toggle="collapse" 
-                                        data-bs-target="#step1" aria-expanded="true" aria-controls="step1">
-                                    <span class="badge bg-primary me-3">1</span> Create Your Account
-                                </button>
-                            </h3>
-                            <div id="step1" class="accordion-collapse collapse show" data-bs-parent="#applicationSteps">
-                                <div class="accordion-body">
-                                    <p class="mb-3">Begin by creating your applicant account on our admissions portal. You'll need a valid email address to receive updates and communications.</p>
-                                    <ul class="list-unstyled">
-                                        <li class="mb-2">✓ Complete the registration form</li>
-                                        <li class="mb-2">✓ Verify your email address</li>
-                                        <li class="mb-2">✓ Set up your secure password</li>
-                                    </ul>
-                                    <a href="registration.html" class="btn btn-primary mt-2">Start Registration</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Step 2 -->
-                        <div class="accordion-item border-0 shadow-sm mb-3">
-                            <h3 class="accordion-header">
-                                <button class="accordion-button collapsed fs-5 fw-bold" type="button" data-bs-toggle="collapse" 
-                                        data-bs-target="#step2" aria-expanded="false" aria-controls="step2">
-                                    <span class="badge bg-primary me-3">2</span> Submit Required Documents
-                                </button>
-                            </h3>
-                            <div id="step2" class="accordion-collapse collapse" data-bs-parent="#applicationSteps">
-                                <div class="accordion-body">
-                                    <p class="mb-3">Upload all required documents through your applicant portal:</p>
-                                    <ul>
-                                        <li>High school transcripts or equivalent</li>
-                                        <li>Standardized test scores (SAT/ACT or international equivalent)</li>
-                                        <li>Two letters of recommendation</li>
-                                        <li>Personal statement essay (500-750 words)</li>
-                                        <li>Resume or CV highlighting achievements</li>
-                                        <li>English proficiency test (TOEFL/IELTS for international students)</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Step 3 -->
-                        <div class="accordion-item border-0 shadow-sm mb-3">
-                            <h3 class="accordion-header">
-                                <button class="accordion-button collapsed fs-5 fw-bold" type="button" data-bs-toggle="collapse" 
-                                        data-bs-target="#step3" aria-expanded="false" aria-controls="step3">
-                                    <span class="badge bg-primary me-3">3</span> Pay Application Fee
-                                </button>
-                            </h3>
-                            <div id="step3" class="accordion-collapse collapse" data-bs-parent="#applicationSteps">
-                                <div class="accordion-body">
-                                    <p class="mb-3">A non-refundable application fee of $75 is required to process your application.</p>
-                                    <ul class="list-unstyled">
-                                        <li class="mb-2">💳 Credit/Debit card accepted</li>
-                                        <li class="mb-2">🏦 Bank transfer available</li>
-                                        <li class="mb-2">💰 Fee waivers available for eligible students</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Step 4 -->
-                        <div class="accordion-item border-0 shadow-sm mb-3">
-                            <h3 class="accordion-header">
-                                <button class="accordion-button collapsed fs-5 fw-bold" type="button" data-bs-toggle="collapse" 
-                                        data-bs-target="#step4" aria-expanded="false" aria-controls="step4">
-                                    <span class="badge bg-primary me-3">4</span> Interview (if selected)
-                                </button>
-                            </h3>
-                            <div id="step4" class="accordion-collapse collapse" data-bs-parent="#applicationSteps">
-                                <div class="accordion-body">
-                                    <p class="mb-3">Selected candidates will be invited for an interview with our admissions committee or alumni representatives.</p>
-                                    <ul class="list-unstyled">
-                                        <li class="mb-2">📹 Virtual or in-person options available</li>
-                                        <li class="mb-2">⏱️ Approximately 30-45 minutes</li>
-                                        <li class="mb-2">💬 Discuss your interests, goals, and fit</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Step 5 -->
-                        <div class="accordion-item border-0 shadow-sm">
-                            <h3 class="accordion-header">
-                                <button class="accordion-button collapsed fs-5 fw-bold" type="button" data-bs-toggle="collapse" 
-                                        data-bs-target="#step5" aria-expanded="false" aria-controls="step5">
-                                    <span class="badge bg-primary me-3">5</span> Receive Decision & Enroll
-                                </button>
-                            </h3>
-                            <div id="step5" class="accordion-collapse collapse" data-bs-parent="#applicationSteps">
-                                <div class="accordion-body">
-                                    <p class="mb-3">Admissions decisions are typically released within 6-8 weeks of application completion.</p>
-                                    <ul class="list-unstyled">
-                                        <li class="mb-2">📧 Decision notification via email and portal</li>
-                                        <li class="mb-2">📝 Accepted students must confirm enrollment</li>
-                                        <li class="mb-2">💵 Submit enrollment deposit to secure your spot</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="timeline-card">
+                        <div class="timeline-date bg-primary text-white">October 1</div>
+                        <h3 class="h6 fw-bold mt-3">Applications Open</h3>
+                        <p class="small text-muted">Fall semester applications begin</p>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Tuition & Fees -->
-    <section class="py-5">
-        <div class="container">
-            <div class="text-center mb-5">
-                <h2 class="display-5 fw-bold mb-3">Tuition & Fees</h2>
-                <p class="lead text-muted">Transparent pricing for the 2025-2026 academic year</p>
-            </div>
-
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <div class="table-responsive">
-                        <table class="table table-hover">
-                            <thead class="table-primary">
-                                <tr>
-                                    <th scope="col" class="fw-bold">Fee Category</th>
-                                    <th scope="col" class="fw-bold text-end">Domestic Students</th>
-                                    <th scope="col" class="fw-bold text-end">International Students</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Tuition (per year)</td>
-                                    <td class="text-end">$18,500</td>
-                                    <td class="text-end">$32,000</td>
-                                </tr>
-                                <tr>
-                                    <td>Student Services Fee</td>
-                                    <td class="text-end">$850</td>
-                                    <td class="text-end">$850</td>
-                                </tr>
-                                <tr>
-                                    <td>Technology Fee</td>
-                                    <td class="text-end">$600</td>
-                                    <td class="text-end">$600</td>
-                                </tr>
-                                <tr>
-                                    <td>Lab & Equipment Fee</td>
-                                    <td class="text-end">$1,200</td>
-                                    <td class="text-end">$1,200</td>
-                                </tr>
-                                <tr>
-                                    <td>Health Insurance (annual)</td>
-                                    <td class="text-end">$1,400</td>
-                                    <td class="text-end">$2,200</td>
-                                </tr>
-                                <tr>
-                                    <td>Housing (on-campus, per year)</td>
-                                    <td class="text-end">$9,500</td>
-                                    <td class="text-end">$9,500</td>
-                                </tr>
-                                <tr>
-                                    <td>Meal Plan (per year)</td>
-                                    <td class="text-end">$4,800</td>
-                                    <td class="text-end">$4,800</td>
-                                </tr>
-                                <tr class="table-light fw-bold">
-                                    <td>Estimated Total (per year)</td>
-                                    <td class="text-end text-primary">$36,850</td>
-                                    <td class="text-end text-primary">$51,150</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                <div class="col-md-6 col-lg-3">
+                    <div class="timeline-card">
+                        <div class="timeline-date bg-primary text-white">January 15</div>
+                        <h3 class="h6 fw-bold mt-3">Regular Decision Deadline</h3>
+                        <p class="small text-muted">Submit all materials by this date</p>
                     </div>
-
-                    <div class="alert alert-success border-0 mt-4">
-                        <h5 class="fw-bold mb-2">💰 Financial Aid Available</h5>
-                        <p class="mb-0">Over 70% of our students receive some form of financial assistance. Scholarships, grants, work-study programs, and student loans are available for qualified students.</p>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="timeline-card">
+                        <div class="timeline-date bg-primary text-white">March 31</div>
+                        <h3 class="h6 fw-bold mt-3">Decisions Released</h3>
+                        <p class="small text-muted">Admission decisions announced</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="timeline-card">
+                        <div class="timeline-date bg-primary text-white">May 1</div>
+                        <h3 class="h6 fw-bold mt-3">Enrollment Deadline</h3>
+                        <p class="small text-muted">Confirm your enrollment</p>
                     </div>
                 </div>
             </div>
@@ -274,119 +137,186 @@
     </section>
 
     <!-- Admission Requirements -->
-    <section class="py-5 bg-light">
-        <div class="container">
-            <div class="text-center mb-5">
-                <h2 class="display-5 fw-bold mb-3">Admission Requirements</h2>
-                <p class="lead text-muted">What you need to apply</p>
-            </div>
-
-            <div class="row g-4">
-                <div class="col-md-6">
-                    <div class="card h-100 border-0 shadow-sm">
-                        <div class="card-body p-4">
-                            <h4 class="fw-bold mb-4">🎓 Academic Requirements</h4>
-                            <ul class="list-unstyled">
-                                <li class="mb-3">
-                                    <strong>Minimum GPA:</strong> 3.0 on a 4.0 scale
-                                </li>
-                                <li class="mb-3">
-                                    <strong>Mathematics:</strong> Completion of Calculus I (or equivalent)
-                                </li>
-                                <li class="mb-3">
-                                    <strong>Science:</strong> Physics and Chemistry with lab
-                                </li>
-                                <li class="mb-3">
-                                    <strong>Test Scores:</strong> SAT 1200+ or ACT 24+ (optional for 2025)
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6">
-                    <div class="card h-100 border-0 shadow-sm">
-                        <div class="card-body p-4">
-                            <h4 class="fw-bold mb-4">🌍 International Requirements</h4>
-                            <ul class="list-unstyled">
-                                <li class="mb-3">
-                                    <strong>English Proficiency:</strong> TOEFL 80+ or IELTS 6.5+
-                                </li>
-                                <li class="mb-3">
-                                    <strong>Credential Evaluation:</strong> WES or equivalent
-                                </li>
-                                <li class="mb-3">
-                                    <strong>Financial Documentation:</strong> Proof of funding
-                                </li>
-                                <li class="mb-3">
-                                    <strong>Visa:</strong> F-1 student visa support provided
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- FAQ Section -->
     <section class="py-5">
         <div class="container">
-            <div class="text-center mb-5">
-                <h2 class="display-5 fw-bold mb-3">Frequently Asked Questions</h2>
-                <p class="lead text-muted">Get answers to common admissions questions</p>
+            <h2 class="h3 fw-bold text-center mb-5">Admission Requirements</h2>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="card shadow-sm mb-4">
+                        <div class="card-body">
+                            <h3 class="h5 fw-bold mb-3">Academic Requirements</h3>
+                            <ul>
+                                <li>High school diploma or equivalent with strong performance in mathematics and science</li>
+                                <li>Minimum GPA of 3.0 on a 4.0 scale (or equivalent)</li>
+                                <li>Completion of calculus, physics, and chemistry courses</li>
+                                <li>SAT/ACT scores (optional for 2025 admissions)</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="card shadow-sm mb-4">
+                        <div class="card-body">
+                            <h3 class="h5 fw-bold mb-3">Required Documents</h3>
+                            <ul>
+                                <li>Completed online application form</li>
+                                <li>Official high school transcripts</li>
+                                <li>Two letters of recommendation (preferably from STEM teachers)</li>
+                                <li>Personal statement or essay</li>
+                                <li>Resume or list of extracurricular activities</li>
+                                <li>Application fee: $75 (fee waivers available)</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h3 class="h5 fw-bold mb-3">International Students</h3>
+                            <ul>
+                                <li>TOEFL (minimum 80 iBT) or IELTS (minimum 6.5) for non-native English speakers</li>
+                                <li>Evaluation of international transcripts</li>
+                                <li>Proof of financial support</li>
+                                <li>Copy of passport</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </div>
+    </section>
 
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <div class="faq-container">
-                        <div class="faq-item mb-3 p-4 bg-light rounded">
-                            <button class="faq-question btn btn-link text-start w-100 text-decoration-none text-dark fw-bold d-flex justify-content-between align-items-center" type="button">
-                                <span>When should I apply?</span>
-                                <span class="faq-toggle">+</span>
-                            </button>
-                            <div class="faq-answer mt-3" style="display: none;">
-                                <p class="text-muted mb-0">We recommend applying early in the application cycle. For Fall admission, the priority deadline is March 1st, though we continue accepting applications until June 30th on a rolling basis.</p>
+    <!-- Tuition and Fees -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="h3 fw-bold text-center mb-5">Tuition & Fees Overview</h2>
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <div class="table-responsive">
+                        <table class="table table-bordered bg-white shadow-sm">
+                            <thead class="table-primary">
+                                <tr>
+                                    <th scope="col">Fee Category</th>
+                                    <th scope="col" class="text-end">In-State</th>
+                                    <th scope="col" class="text-end">Out-of-State</th>
+                                    <th scope="col" class="text-end">International</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Tuition (per year)</th>
+                                    <td class="text-end">$12,500</td>
+                                    <td class="text-end">$28,000</td>
+                                    <td class="text-end">$32,000</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Student Fees</th>
+                                    <td class="text-end">$1,200</td>
+                                    <td class="text-end">$1,200</td>
+                                    <td class="text-end">$1,500</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Housing (estimated)</th>
+                                    <td class="text-end">$8,000</td>
+                                    <td class="text-end">$8,000</td>
+                                    <td class="text-end">$8,000</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Meal Plan</th>
+                                    <td class="text-end">$5,500</td>
+                                    <td class="text-end">$5,500</td>
+                                    <td class="text-end">$5,500</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Books & Supplies</th>
+                                    <td class="text-end">$1,200</td>
+                                    <td class="text-end">$1,200</td>
+                                    <td class="text-end">$1,200</td>
+                                </tr>
+                                <tr class="table-light fw-bold">
+                                    <th scope="row">Total Estimated Cost</th>
+                                    <td class="text-end">$28,400</td>
+                                    <td class="text-end">$43,900</td>
+                                    <td class="text-end">$48,200</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="alert alert-info mt-4">
+                        <strong>Financial Aid Available:</strong> Over 85% of our students receive some form of financial assistance through scholarships, grants, work-study programs, or loans. Contact our Financial Aid Office to learn about opportunities.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section with Interactive Toggle (Interactive Feature #2) -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="h3 fw-bold text-center mb-5">Frequently Asked Questions</h2>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="accordion" id="faqAccordion">
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="false" aria-controls="faq1">
+                                    When is the application deadline?
+                                </button>
+                            </h3>
+                            <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    The regular decision deadline for fall admission is January 15. We also offer rolling admissions for spring semester with a deadline of October 1. Early decision applicants should submit by November 1.
+                                </div>
                             </div>
                         </div>
 
-                        <div class="faq-item mb-3 p-4 bg-light rounded">
-                            <button class="faq-question btn btn-link text-start w-100 text-decoration-none text-dark fw-bold d-flex justify-content-between align-items-center" type="button">
-                                <span>Can I transfer credits from another institution?</span>
-                                <span class="faq-toggle">+</span>
-                            </button>
-                            <div class="faq-answer mt-3" style="display: none;">
-                                <p class="text-muted mb-0">Yes! We accept transfer credits from accredited institutions. Credits must be relevant to your program and you must have earned a grade of C or higher. Our transfer credit evaluator will review your transcripts during the admissions process.</p>
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
+                                    Are standardized test scores required?
+                                </button>
+                            </h3>
+                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    For the 2025 admissions cycle, SAT and ACT scores are optional. We use a holistic review process that considers your academic performance, essays, recommendations, and extracurricular involvement. You may submit scores if you feel they strengthen your application.
+                                </div>
                             </div>
                         </div>
 
-                        <div class="faq-item mb-3 p-4 bg-light rounded">
-                            <button class="faq-question btn btn-link text-start w-100 text-decoration-none text-dark fw-bold d-flex justify-content-between align-items-center" type="button">
-                                <span>What scholarships are available?</span>
-                                <span class="faq-toggle">+</span>
-                            </button>
-                            <div class="faq-answer mt-3" style="display: none;">
-                                <p class="text-muted mb-0">We offer merit-based scholarships, need-based grants, athletic scholarships, and program-specific awards. All applicants are automatically considered for merit scholarships. Additional scholarship applications may be required for specific awards.</p>
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
+                                    Can I apply to multiple engineering programs?
+                                </button>
+                            </h3>
+                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Yes! You can indicate up to two program preferences on your application. Most students declare their specific engineering major at the end of their first year after exploring foundational courses.
+                                </div>
                             </div>
                         </div>
 
-                        <div class="faq-item mb-3 p-4 bg-light rounded">
-                            <button class="faq-question btn btn-link text-start w-100 text-decoration-none text-dark fw-bold d-flex justify-content-between align-items-center" type="button">
-                                <span>Do you offer campus tours?</span>
-                                <span class="faq-toggle">+</span>
-                            </button>
-                            <div class="faq-answer mt-3" style="display: none;">
-                                <p class="text-muted mb-0">Absolutely! We offer both in-person and virtual campus tours. Visit our website to schedule your tour. We also host open house events throughout the year where you can meet faculty, current students, and learn more about our programs.</p>
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">
+                                    What financial aid options are available?
+                                </button>
+                            </h3>
+                            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    We offer merit-based scholarships, need-based grants, work-study opportunities, and federal student loans. Complete the FAFSA to be considered for federal and institutional aid. Merit scholarships are awarded automatically based on your application.
+                                </div>
                             </div>
                         </div>
 
-                        <div class="faq-item mb-3 p-4 bg-light rounded">
-                            <button class="faq-question btn btn-link text-start w-100 text-decoration-none text-dark fw-bold d-flex justify-content-between align-items-center" type="button">
-                                <span>What is the acceptance rate?</span>
-                                <span class="faq-toggle">+</span>
-                            </button>
-                            <div class="faq-answer mt-3" style="display: none;">
-                                <p class="text-muted mb-0">Our acceptance rate varies by program but averages around 45-55%. We take a holistic approach to admissions, considering academic performance, personal achievements, and potential for success in our programs.</p>
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5" aria-expanded="false" aria-controls="faq5">
+                                    Do you accept transfer students?
+                                </button>
+                            </h3>
+                            <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Yes, we welcome transfer students. You must have completed at least 12 college credits with a minimum GPA of 2.75. Transfer credits are evaluated on a case-by-case basis. Contact our Transfer Admissions Coordinator for specific requirements.
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -395,15 +325,12 @@
         </div>
     </section>
 
-    <!-- CTA Section -->
-    <section class="cta-section py-5 text-white text-center">
+    <!-- Call to Action -->
+    <section class="py-5 bg-primary text-white text-center">
         <div class="container">
-            <h2 class="display-5 fw-bold mb-4">Ready to Apply?</h2>
-            <p class="lead mb-4">Start your application today and take the first step toward an exciting engineering career</p>
-            <div class="d-flex gap-3 justify-content-center flex-wrap">
-                <a href="registration.html" class="btn btn-light btn-lg px-5 py-3">Begin Application</a>
-                <a href="contact.html" class="btn btn-outline-light btn-lg px-5 py-3">Contact Admissions</a>
-            </div>
+            <h2 class="display-5 fw-bold mb-3">Ready to Apply?</h2>
+            <p class="lead mb-4">Start your application today and take the first step toward your engineering career.</p>
+            <a href="registration.html" class="btn btn-light btn-lg text-primary">Begin Application</a>
         </div>
     </section>
 
@@ -411,28 +338,29 @@
     <footer class="bg-dark text-white py-5">
         <div class="container">
             <div class="row g-4">
-                <div class="col-lg-4">
+                <div class="col-md-4">
                     <h5 class="fw-bold mb-3">Engineering College</h5>
-                    <p class="text-muted">Empowering future engineers to create innovative solutions for global challenges.</p>
+                    <p>Empowering the next generation of engineers to solve tomorrow's challenges.</p>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-md-4">
                     <h5 class="fw-bold mb-3">Quick Links</h5>
                     <ul class="list-unstyled">
-                        <li class="mb-2"><a href="about.html" class="text-muted text-decoration-none">About & Programs</a></li>
-                        <li class="mb-2"><a href="admissions.html" class="text-muted text-decoration-none">Admissions</a></li>
-                        <li class="mb-2"><a href="student-life.html" class="text-muted text-decoration-none">Student Life</a></li>
-                        <li class="mb-2"><a href="contact.html" class="text-muted text-decoration-none">Contact Us</a></li>
+                        <li><a href="about.html" class="text-white-50 text-decoration-none">About & Programs</a></li>
+                        <li><a href="admissions.html" class="text-white-50 text-decoration-none">Admissions</a></li>
+                        <li><a href="student-life.html" class="text-white-50 text-decoration-none">Student Life</a></li>
+                        <li><a href="contact.html" class="text-white-50 text-decoration-none">Contact Us</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-md-4">
                     <h5 class="fw-bold mb-3">Contact Info</h5>
-                    <p class="text-muted mb-2">📍 123 Innovation Drive, Tech City</p>
-                    <p class="text-muted mb-2">📧 info@engineeringcollege.edu</p>
-                    <p class="text-muted mb-2">📞 +1 (555) 123-4567</p>
+                    <p class="text-white-50 mb-1">123 Innovation Drive</p>
+                    <p class="text-white-50 mb-1">Tech City, TC 12345</p>
+                    <p class="text-white-50 mb-1">Phone: (555) 123-4567</p>
+                    <p class="text-white-50">Email: info@engineeringcollege.edu</p>
                 </div>
             </div>
-            <hr class="my-4 border-secondary">
-            <div class="text-center text-muted">
+            <hr class="my-4 bg-white">
+            <div class="text-center text-white-50">
                 <p class="mb-0">&copy; 2025 Engineering College. All rights reserved.</p>
             </div>
         </div>

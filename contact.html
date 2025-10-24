@@ -3,20 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Contact Engineering College">
     <title>Contact - Engineering College</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <!-- Fixed Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <!-- Fixed Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
         <div class="container">
-            <a class="navbar-brand fw-bold" href="index.html">
-                <span class="brand-icon">⚙️</span> Engineering College
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="assets/images/logo.svg" alt="Engineering College Logo" height="40" class="me-2">
+                <span class="fw-bold">Engineering College</span>
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -37,7 +36,7 @@
                         <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn-register" href="registration.html">Register Now</a>
+                        <a class="nav-link btn btn-light text-primary ms-lg-2" href="registration.html">Apply Now</a>
                     </li>
                 </ul>
             </div>
@@ -45,10 +44,10 @@
     </nav>
 
     <!-- Page Header -->
-    <section class="page-header bg-gradient text-white text-center py-5">
-        <div class="container" style="margin-top: 80px;">
-            <h1 class="display-4 fw-bold mb-3">Contact Us</h1>
-            <p class="lead">We're Here to Help</p>
+    <section class="page-header bg-light">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Contact Us</h1>
+            <p class="lead">We're here to help answer your questions</p>
         </div>
     </section>
 
@@ -56,118 +55,128 @@
     <section class="py-5">
         <div class="container">
             <div class="row g-4 mb-5">
-                <div class="col-md-6 col-lg-3">
-                    <div class="text-center p-4 bg-light rounded h-100">
-                        <div class="mb-3" style="font-size: 3rem;">📍</div>
-                        <h5 class="fw-bold mb-3">Visit Us</h5>
-                        <p class="text-muted mb-0">123 Innovation Drive<br>Tech City, TC 12345<br>United States</p>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm text-center">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <span style="font-size: 48px;">📍</span>
+                            </div>
+                            <h3 class="h5 fw-bold">Visit Us</h3>
+                            <p class="text-muted mb-0">123 Innovation Drive<br>Tech City, TC 12345<br>United States</p>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="text-center p-4 bg-light rounded h-100">
-                        <div class="mb-3" style="font-size: 3rem;">📧</div>
-                        <h5 class="fw-bold mb-3">Email Us</h5>
-                        <p class="text-muted mb-2">General: info@engineeringcollege.edu</p>
-                        <p class="text-muted mb-0">Admissions: admissions@engineeringcollege.edu</p>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm text-center">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <span style="font-size: 48px;">📞</span>
+                            </div>
+                            <h3 class="h5 fw-bold">Call Us</h3>
+                            <p class="text-muted mb-1"><strong>Main:</strong> (555) 123-4567</p>
+                            <p class="text-muted mb-1"><strong>Admissions:</strong> (555) 123-4568</p>
+                            <p class="text-muted mb-0"><strong>Fax:</strong> (555) 123-4569</p>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="text-center p-4 bg-light rounded h-100">
-                        <div class="mb-3" style="font-size: 3rem;">📞</div>
-                        <h5 class="fw-bold mb-3">Call Us</h5>
-                        <p class="text-muted mb-2">Main: +1 (555) 123-4567</p>
-                        <p class="text-muted mb-0">Admissions: +1 (555) 123-4568</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="text-center p-4 bg-light rounded h-100">
-                        <div class="mb-3" style="font-size: 3rem;">🕒</div>
-                        <h5 class="fw-bold mb-3">Office Hours</h5>
-                        <p class="text-muted mb-2">Mon-Fri: 8:00 AM - 6:00 PM</p>
-                        <p class="text-muted mb-0">Sat: 9:00 AM - 2:00 PM</p>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm text-center">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <span style="font-size: 48px;">✉️</span>
+                            </div>
+                            <h3 class="h5 fw-bold">Email Us</h3>
+                            <p class="text-muted mb-1"><strong>General:</strong> info@engineeringcollege.edu</p>
+                            <p class="text-muted mb-1"><strong>Admissions:</strong> admissions@engineeringcollege.edu</p>
+                            <p class="text-muted mb-0"><strong>Support:</strong> support@engineeringcollege.edu</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact Form Section -->
+    <!-- Contact Form -->
     <section class="py-5 bg-light">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="card border-0 shadow-sm">
-                        <div class="card-body p-5">
-                            <h2 class="text-center fw-bold mb-4">Send Us a Message</h2>
-                            <p class="text-center text-muted mb-5">Have a question? Fill out the form below and we'll get back to you within 24 hours.</p>
-
-                            <!-- Contact Form -->
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="card shadow">
+                        <div class="card-body p-4 p-md-5">
+                            <h2 class="h3 fw-bold mb-4 text-center">Send Us a Message</h2>
                             <form id="contactForm" novalidate>
-                                <!-- Name Field -->
-                                <div class="mb-4">
-                                    <label for="contactName" class="form-label">Full Name <span class="text-danger">*</span></label>
-                                    <input type="text" class="form-control" id="contactName" name="name" required 
-                                           placeholder="Enter your full name">
-                                    <div class="invalid-feedback">Please provide your full name.</div>
-                                    <div class="valid-feedback">Looks good!</div>
-                                </div>
-
-                                <!-- Email Field -->
-                                <div class="mb-4">
-                                    <label for="contactEmail" class="form-label">Email Address <span class="text-danger">*</span></label>
-                                    <input type="email" class="form-control" id="contactEmail" name="email" required 
-                                           placeholder="your.email@example.com">
-                                    <div class="invalid-feedback">Please provide a valid email address.</div>
-                                    <div class="valid-feedback">Looks good!</div>
-                                </div>
-
-                                <!-- Subject Field -->
-                                <div class="mb-4">
-                                    <label for="contactSubject" class="form-label">Subject <span class="text-danger">*</span></label>
-                                    <select class="form-select" id="contactSubject" name="subject" required>
-                                        <option value="" selected disabled>Choose a subject...</option>
-                                        <option value="general">General Inquiry</option>
-                                        <option value="admissions">Admissions Question</option>
-                                        <option value="programs">Program Information</option>
-                                        <option value="financial">Financial Aid</option>
-                                        <option value="technical">Technical Support</option>
-                                        <option value="other">Other</option>
-                                    </select>
-                                    <div class="invalid-feedback">Please select a subject.</div>
-                                    <div class="valid-feedback">Looks good!</div>
-                                </div>
-
-                                <!-- Message Field -->
-                                <div class="mb-4">
-                                    <label for="contactMessage" class="form-label">Message <span class="text-danger">*</span></label>
-                                    <textarea class="form-control" id="contactMessage" name="message" rows="5" required 
-                                              placeholder="Type your message here..." minlength="10"></textarea>
-                                    <div class="invalid-feedback">Please provide a message (at least 10 characters).</div>
-                                    <div class="valid-feedback">Looks good!</div>
-                                    <small class="text-muted">Minimum 10 characters</small>
-                                </div>
-
-                                <!-- Anti-Spam Verification -->
-                                <div class="mb-4">
-                                    <label for="antiSpam" class="form-label">Security Check <span class="text-danger">*</span></label>
-                                    <div class="input-group">
-                                        <span class="input-group-text bg-white">What is <span id="num1" class="mx-1 fw-bold">5</span> + <span id="num2" class="mx-1 fw-bold">3</span>?</span>
-                                        <input type="number" class="form-control" id="antiSpam" name="antiSpam" required 
-                                               placeholder="Enter answer">
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <label for="contactName" class="form-label">Full Name <span class="text-danger">*</span></label>
+                                        <input type="text" class="form-control" id="contactName" name="name" required>
+                                        <div class="invalid-feedback">
+                                            Please enter your name.
+                                        </div>
                                     </div>
-                                    <div class="invalid-feedback">Please answer the security question correctly.</div>
-                                    <div class="valid-feedback">Correct!</div>
+                                    <div class="col-md-6">
+                                        <label for="contactEmail" class="form-label">Email Address <span class="text-danger">*</span></label>
+                                        <input type="email" class="form-control" id="contactEmail" name="email" required>
+                                        <div class="invalid-feedback">
+                                            Please enter a valid email address.
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="contactSubject" class="form-label">Subject <span class="text-danger">*</span></label>
+                                        <select class="form-select" id="contactSubject" name="subject" required>
+                                            <option value="">Choose a subject...</option>
+                                            <option value="admissions">Admissions Inquiry</option>
+                                            <option value="programs">Program Information</option>
+                                            <option value="financial">Financial Aid</option>
+                                            <option value="campus">Campus Visit</option>
+                                            <option value="technical">Technical Support</option>
+                                            <option value="other">Other</option>
+                                        </select>
+                                        <div class="invalid-feedback">
+                                            Please select a subject.
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="contactMessage" class="form-label">Message <span class="text-danger">*</span></label>
+                                        <textarea class="form-control" id="contactMessage" name="message" rows="5" required></textarea>
+                                        <div class="invalid-feedback">
+                                            Please enter your message.
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- Simple Anti-Spam Measure -->
+                                    <div class="col-12">
+                                        <label for="antispam" class="form-label">Anti-Spam Check: What is 5 + 3? <span class="text-danger">*</span></label>
+                                        <input type="text" class="form-control" id="antispam" name="antispam" required pattern="8">
+                                        <div class="invalid-feedback">
+                                            Please answer the security question correctly.
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="contactConsent" required>
+                                            <label class="form-check-label" for="contactConsent">
+                                                I agree to be contacted regarding my inquiry <span class="text-danger">*</span>
+                                            </label>
+                                            <div class="invalid-feedback">
+                                                You must agree before submitting.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <button type="submit" class="btn btn-primary btn-lg w-100">Send Message</button>
+                                    </div>
                                 </div>
 
-                                <!-- Alert Messages -->
-                                <div id="contactAlert" class="alert d-none" role="alert"></div>
+                                <!-- Success Message -->
+                                <div id="contactSuccess" class="alert alert-success mt-4 d-none" role="alert">
+                                    <strong>Thank you!</strong> Your message has been sent successfully. We'll get back to you within 24-48 hours.
+                                </div>
 
-                                <!-- Submit Button -->
-                                <div class="d-grid gap-2">
-                                    <button type="submit" class="btn btn-primary btn-lg">
-                                        <span class="submit-text">Send Message</span>
-                                        <span class="spinner-border spinner-border-sm d-none ms-2" role="status" aria-hidden="true"></span>
-                                    </button>
+                                <!-- Error Message -->
+                                <div id="contactError" class="alert alert-danger mt-4 d-none" role="alert">
+                                    <strong>Oops!</strong> There was a problem sending your message. Please try again.
                                 </div>
                             </form>
                         </div>
@@ -177,22 +186,35 @@
         </div>
     </section>
 
-    <!-- Map Section -->
+    <!-- Office Hours -->
     <section class="py-5">
         <div class="container">
-            <div class="text-center mb-4">
-                <h2 class="display-5 fw-bold mb-3">Find Us</h2>
-                <p class="lead text-muted">Located in the heart of Tech City</p>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <div class="image-placeholder bg-gradient p-5 rounded-3 text-center text-white" style="min-height: 400px;">
-                        <div class="d-flex align-items-center justify-content-center h-100">
-                            <div>
-                                <p class="display-1 mb-3">🗺️</p>
-                                <h4>Campus Map</h4>
-                                <p class="mb-0">123 Innovation Drive, Tech City, TC 12345</p>
-                            </div>
+            <h2 class="h3 fw-bold text-center mb-5">Office Hours</h2>
+            <div class="row">
+                <div class="col-lg-6 mx-auto">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <table class="table table-borderless mb-0">
+                                <tbody>
+                                    <tr>
+                                        <td><strong>Monday - Friday:</strong></td>
+                                        <td class="text-end">8:00 AM - 6:00 PM</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Saturday:</strong></td>
+                                        <td class="text-end">9:00 AM - 2:00 PM</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Sunday:</strong></td>
+                                        <td class="text-end">Closed</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2" class="text-muted small pt-3">
+                                            <em>Hours may vary during holidays and academic breaks. Please call ahead to confirm.</em>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
                 </div>
@@ -200,48 +222,48 @@
         </div>
     </section>
 
-    <!-- FAQ Section -->
+    <!-- Department Contacts -->
     <section class="py-5 bg-light">
         <div class="container">
-            <div class="text-center mb-5">
-                <h2 class="display-5 fw-bold mb-3">Quick Answers</h2>
-                <p class="lead text-muted">Find answers to common questions</p>
-            </div>
-
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <div class="row g-4">
-                        <div class="col-md-6">
-                            <div class="card border-0 shadow-sm h-100">
-                                <div class="card-body p-4">
-                                    <h5 class="fw-bold mb-3">How can I schedule a campus tour?</h5>
-                                    <p class="text-muted mb-0">Contact our admissions office at +1 (555) 123-4568 or email admissions@engineeringcollege.edu to schedule your visit.</p>
-                                </div>
-                            </div>
+            <h2 class="h3 fw-bold text-center mb-5">Department Contacts</h2>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h3 class="h5 fw-bold">Admissions Office</h3>
+                            <p class="text-muted mb-2">Questions about applications, requirements, and enrollment</p>
+                            <p class="mb-1"><strong>Phone:</strong> (555) 123-4568</p>
+                            <p class="mb-0"><strong>Email:</strong> admissions@engineeringcollege.edu</p>
                         </div>
-                        <div class="col-md-6">
-                            <div class="card border-0 shadow-sm h-100">
-                                <div class="card-body p-4">
-                                    <h5 class="fw-bold mb-3">What are your application deadlines?</h5>
-                                    <p class="text-muted mb-0">Fall 2025 applications are due by June 30, 2025. Spring 2026 applications open October 1, 2025.</p>
-                                </div>
-                            </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h3 class="h5 fw-bold">Financial Aid Office</h3>
+                            <p class="text-muted mb-2">Scholarships, grants, loans, and payment plans</p>
+                            <p class="mb-1"><strong>Phone:</strong> (555) 123-4570</p>
+                            <p class="mb-0"><strong>Email:</strong> financialaid@engineeringcollege.edu</p>
                         </div>
-                        <div class="col-md-6">
-                            <div class="card border-0 shadow-sm h-100">
-                                <div class="card-body p-4">
-                                    <h5 class="fw-bold mb-3">Do you offer financial aid?</h5>
-                                    <p class="text-muted mb-0">Yes! Over 70% of our students receive financial assistance through scholarships, grants, and work-study programs.</p>
-                                </div>
-                            </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h3 class="h5 fw-bold">Academic Advising</h3>
+                            <p class="text-muted mb-2">Course selection, program requirements, and academic planning</p>
+                            <p class="mb-1"><strong>Phone:</strong> (555) 123-4571</p>
+                            <p class="mb-0"><strong>Email:</strong> advising@engineeringcollege.edu</p>
                         </div>
-                        <div class="col-md-6">
-                            <div class="card border-0 shadow-sm h-100">
-                                <div class="card-body p-4">
-                                    <h5 class="fw-bold mb-3">How do I check my application status?</h5>
-                                    <p class="text-muted mb-0">Log into your applicant portal using the credentials you created during registration to track your status.</p>
-                                </div>
-                            </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h3 class="h5 fw-bold">Student Services</h3>
+                            <p class="text-muted mb-2">Housing, health services, counseling, and student life</p>
+                            <p class="mb-1"><strong>Phone:</strong> (555) 123-4572</p>
+                            <p class="mb-0"><strong>Email:</strong> studentservices@engineeringcollege.edu</p>
                         </div>
                     </div>
                 </div>
@@ -253,28 +275,29 @@
     <footer class="bg-dark text-white py-5">
         <div class="container">
             <div class="row g-4">
-                <div class="col-lg-4">
+                <div class="col-md-4">
                     <h5 class="fw-bold mb-3">Engineering College</h5>
-                    <p class="text-muted">Empowering future engineers to create innovative solutions for global challenges.</p>
+                    <p>Empowering the next generation of engineers to solve tomorrow's challenges.</p>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-md-4">
                     <h5 class="fw-bold mb-3">Quick Links</h5>
                     <ul class="list-unstyled">
-                        <li class="mb-2"><a href="about.html" class="text-muted text-decoration-none">About & Programs</a></li>
-                        <li class="mb-2"><a href="admissions.html" class="text-muted text-decoration-none">Admissions</a></li>
-                        <li class="mb-2"><a href="student-life.html" class="text-muted text-decoration-none">Student Life</a></li>
-                        <li class="mb-2"><a href="contact.html" class="text-muted text-decoration-none">Contact Us</a></li>
+                        <li><a href="about.html" class="text-white-50 text-decoration-none">About & Programs</a></li>
+                        <li><a href="admissions.html" class="text-white-50 text-decoration-none">Admissions</a></li>
+                        <li><a href="student-life.html" class="text-white-50 text-decoration-none">Student Life</a></li>
+                        <li><a href="contact.html" class="text-white-50 text-decoration-none">Contact Us</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-md-4">
                     <h5 class="fw-bold mb-3">Contact Info</h5>
-                    <p class="text-muted mb-2">📍 123 Innovation Drive, Tech City</p>
-                    <p class="text-muted mb-2">📧 info@engineeringcollege.edu</p>
-                    <p class="text-muted mb-2">📞 +1 (555) 123-4567</p>
+                    <p class="text-white-50 mb-1">123 Innovation Drive</p>
+                    <p class="text-white-50 mb-1">Tech City, TC 12345</p>
+                    <p class="text-white-50 mb-1">Phone: (555) 123-4567</p>
+                    <p class="text-white-50">Email: info@engineeringcollege.edu</p>
                 </div>
             </div>
-            <hr class="my-4 border-secondary">
-            <div class="text-center text-muted">
+            <hr class="my-4 bg-white">
+            <div class="text-center text-white-50">
                 <p class="mb-0">&copy; 2025 Engineering College. All rights reserved.</p>
             </div>
         </div>
